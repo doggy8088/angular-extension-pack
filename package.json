@@ -2,7 +2,7 @@
     "name": "angular-extension-pack",
     "displayName": "Angular Extension Pack",
     "description": "Popular Visual Studio Code extensions for Angular Development",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "doggy8088",
     "icon": "icon.png",
     "repository": "https://github.com/doggy8088/angular-extension-pack",
@@ -18,7 +18,6 @@
         "AngularDoc.angulardoc-vscode",
         "christian-kohler.path-intellisense",
         "davidbabel.vscode-simpler-icons",
-        "donjayamanne.githistory",
         "DSKWRK.vscode-generate-getter-setter",
         "EditorConfig.EditorConfig",
         "formulahendry.auto-rename-tag",
@@ -30,10 +29,9 @@
         "johnpapa.Angular2",
         "krizzdewizz.refactorix",
         "moppitz.vscode-extension-auto-import",
-        "ms-vscode.csharp",
         "ms-vscode.typescript-javascript-grammar",
         "NoHomey.angular-io-code",
-        "steoates.autoimport",
-        "xabikos.JavaScriptSnippets"
+        "xabikos.JavaScriptSnippets",
+        "Zignd.html-css-class-completion"
     ]
 }
