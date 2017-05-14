@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.3.0 - 2017-05-14
+- Add [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+    - 110 Angular 2+ Snippets (TypeScript, Html, ngRx, Angular Flex Layout & Testing) Updated for v2.4.11 & v4.0.0
+    - Remember there is a setting `"editor.snippetSuggestions": "top"` for seeing extension snippets on **top**.
+- Remove [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+
 ## 0.2.0 - 2017-05-11
 - Add [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - Add [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
