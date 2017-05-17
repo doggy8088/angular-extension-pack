@@ -27,6 +27,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 - [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 - [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+    - Recommand settings: Set `"editor.snippetSuggestions": "top"` for seeing extension snippets on **top**.
 
 ### Code Analysis
 
@@ -42,6 +43,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [Better Merge](https://marketplace.visualstudio.com/items?itemName=pprice.better-merge)
 - [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+    - It's better to change `"gitlens.showCommitSearch"` keyboard binding from `alt+f` to `ctrl+alt+f`.
 
 ### Workbench
 

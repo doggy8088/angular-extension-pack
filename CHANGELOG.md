@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.3.2 - 2017-05-17
+- Update `README.md` only
+
 ## 0.3.1 - 2017-05-16
 - Add [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
