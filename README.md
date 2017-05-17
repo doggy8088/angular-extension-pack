@@ -25,6 +25,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
+- [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 - [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
 ### Code Analysis
