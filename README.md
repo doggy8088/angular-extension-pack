@@ -10,9 +10,10 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Auto Import - ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import)
 - [Latest TypeScript and Javascript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
 - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-- [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
 - [refactorix](https://marketplace.visualstudio.com/items?itemName=krizzdewizz.refactorix)
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
+- [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
+- [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 
 ### Template Productivity
 
@@ -32,7 +33,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 ### Code Analysis
 
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-- [AngularDoc for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=AngularDoc.angulardoc-vscode)
 
 ### Code Navigation
 
@@ -42,8 +42,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [Better Merge](https://marketplace.visualstudio.com/items?itemName=pprice.better-merge)
-- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-    - It's better to change `"gitlens.showCommitSearch"` keyboard binding from `alt+f` to `ctrl+alt+f`.
 
 ### Workbench
 

@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.4.0 - 2017-05-27
+- Add [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
+- Add [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
+- Remove [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
+    - Auto import feature is buggy.
+- Remove [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+    - It's too informative.
+- Remove [AngularDoc for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=AngularDoc.angulardoc-vscode)
+    - Not always needed.  It can be installed when it's needed.
+
 ## 0.3.2 - 2017-05-17
 - Update `README.md` only
 
