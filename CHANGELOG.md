@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.5.0 - 2017-06-04
+- Add [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
+    - This is the best TypeScript auto import implementation!
+- Remove [Auto Import - ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import)
+    - This extension is too buggy.
+
 ## 0.4.0 - 2017-05-27
 - Add [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
 - Add [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
