@@ -1,9 +1,13 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.5.1 - 2017-06-04
+- Add [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
+    - Suit for import types including node_modules
+
 ## 0.5.0 - 2017-06-04
 - Add [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-    - This is the best TypeScript auto import implementation!
+    - Suit for import TypeScript types from current project except for node_modules!
 - Remove [Auto Import - ES6 & TS](https://marketplace.visualstudio.com/items?itemName=moppitz.vscode-extension-auto-import)
     - This extension is too buggy.
 
