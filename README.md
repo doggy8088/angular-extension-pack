@@ -9,6 +9,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
 - [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
+    - Settings: `"genGetSet.spacedImportLine": true`
 - [Latest TypeScript and Javascript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
 - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 - [refactorix](https://marketplace.visualstudio.com/items?itemName=krizzdewizz.refactorix)
@@ -29,7 +30,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 - [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 - [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
-    - Recommand settings: Set `"editor.snippetSuggestions": "top"` for seeing extension snippets on **top**.
+    - Settings: `"editor.snippetSuggestions": "top"`
 
 ### Code Analysis
 

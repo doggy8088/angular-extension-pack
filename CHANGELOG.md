@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
-## 0.5.1 - 2017-06-04
+## 0.5.2 - 2017-06-04
 - Add [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
     - Suit for import types including node_modules
 
