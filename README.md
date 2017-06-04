@@ -23,7 +23,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
-- [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 ### Angular Code Snippets
