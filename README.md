@@ -4,6 +4,12 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 ## Extensions Included
 
+### Angular Code Snippets
+
+- [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+- [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+    - Settings: `"editor.snippetSuggestions": "top"`
+
 ### TypeScript Productivity
 
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
@@ -25,15 +31,10 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
-### Angular Code Snippets
-
-- [Angular v4 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
-- [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
-    - Settings: `"editor.snippetSuggestions": "top"`
-
 ### Code Analysis
 
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+    - Settings: `"tslint.autoFixOnSave": true` ( [See also](https://github.com/Microsoft/TypeScript/issues/13270#issuecomment-292298260) )
 
 ### Code Navigation
 
@@ -49,5 +50,35 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
 - [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
 - [Angular-io-Code](https://marketplace.visualstudio.com/items?itemName=NoHomey.angular-io-code)
+
+### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
+
+- [AngularDoc for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=AngularDoc.angulardoc-vscode)
+    - Sometimes it's buggy.  Many of our projects are unable to produce documentation.
+- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+    - It's too informative for me.  I turn it off all the time.
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+    - I don't need this extension usually, but maybe someone need it. 
+- [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
+    - I don't use **inline template** at all.  If you need it, you can install this extension.  I don't like mix HTML with TypeScript anyway.
+
+### Other manual setup (Optional)
+
+- Recommended Settings for Editor Fonts
+    - English
+        - `"editor.fontLigatures": true`
+        - `"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace"`
+        - Install [FiraCode: Monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
+    - 繁體中文
+        - `"editor.fontLigatures": true`
+        - `"editor.fontFamily": "Fira Code, 'Noto Sans CJK TC Medium', Consolas, 'Courier New', monospace"`
+        - Install [Google Noto Fonts - Noto Sans CJK TC](https://www.google.com/get/noto/#sans-hant)
+        - Install [FiraCode: Monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
+    - 简体中文
+        - `"editor.fontLigatures": true`
+        - `"editor.fontFamily": "Fira Code, 'Noto Sans CJK SC Medium', Consolas, 'Courier New', monospace"`
+        - Install [Google Noto Fonts - Noto Sans CJK SC](https://www.google.com/get/noto/#sans-hans)
+        - Install [FiraCode: Monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
+
 
 **Enjoy!**

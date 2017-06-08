@@ -1,9 +1,14 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.5.4 - 2017-06-08
+- Update `README.md` only
+
 ## 0.5.3 - 2017-06-04
 - Remove [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-    - The current version of this extension will broken Angular development.  All the IntelliSense will be disabled due to unknown reason.  After this extension become stable, it'll add it back someday.
+    - The current version of this extension will broken Angular development.
+    - All the IntelliSense will be disabled due to [unknown reason](https://github.com/zignd/HTML-CSS-Class-Completion/issues/58).
+    - After this extension become stable, it'll add it back someday.
 
 ## 0.5.2 - 2017-06-04
 - Add [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
