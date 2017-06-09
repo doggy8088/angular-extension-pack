@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.6.0 - 2017-06-09
+- Remove [Better Merge](https://marketplace.visualstudio.com/items?itemName=pprice.better-merge)
+    - Because this extension has been built-in Visual Studio Code v1.13.
+
 ## 0.5.4 - 2017-06-08
 - Update `README.md` only
 

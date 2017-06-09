@@ -43,7 +43,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 ### Collaboration
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-- [Better Merge](https://marketplace.visualstudio.com/items?itemName=pprice.better-merge)
 
 ### Workbench
 
