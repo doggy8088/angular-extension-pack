@@ -78,6 +78,11 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         - `"editor.fontFamily": "Fira Code, 'Noto Sans CJK SC Medium', Consolas, 'Courier New', monospace"`
         - Install [Google Noto Fonts - Noto Sans CJK SC](https://www.google.com/get/noto/#sans-hans)
         - Install [FiraCode: Monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
-
+- Recommended Settings
+    - `"editor.minimap.renderCharacters": false`
+        - Enhanced minimap performance by disabling render characters in minimap.
+- Recommended Settings for Visual Studio Code v1.13 and later
+    - `"emmet.useNewEmmet": true`
+        - Use the new Emmet features in Visual Studio Code v1.13.
 
 **Enjoy!**
