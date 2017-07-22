@@ -28,7 +28,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 ### Code Analysis

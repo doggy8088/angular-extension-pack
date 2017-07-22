@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.7.0 - 2017-07-23
+- Remove [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+
 ## 0.6.1 - 2017-06-08
 - Update `README.md` only
 
