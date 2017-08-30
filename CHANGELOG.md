@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.7.3 - 2017-08-30
+- Update `README.md` only
+
 ## 0.7.2 - 2017-08-23
 - Update `README.md` only
 

@@ -49,15 +49,13 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         - `x: Property to getter/setter`
         - `x: Arrow function all single statement blocks to expression`
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-    - Setting: Set the HTML default `wrap_line_length` to `0`.  See the [VSCodeBeautify/Settings](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) docs.
+    - Setting: Set the HTML default `wrap_line_length` to `0`. Removed `label` tag from `html.format.unformatted` because `label` are sometimes wrapping `input` and other tags.  See the [VSCodeBeautify/Settings](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) docs.
         ```
-        "beautify.config": {
-            "html": {
-                "wrap_line_length": 0,
-                "wrap_attributes": "auto"
-            }
-        }
+        "html.format.wrapLineLength": 0,
+        "html.format.wrapAttributes": "auto",
+        "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var"
         ```
+    - See also: [.editorconfig's indent_size doesn't applied on HTML file #170](https://github.com/HookyQR/VSCodeBeautify/issues/170)
 - [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
     - Remember to hit `Ctrl+Alt+V` to convert JSON from **clipboard**.
     - Remember to hit `Ctrl+Alt+S` to convert JSON from **selection**.
