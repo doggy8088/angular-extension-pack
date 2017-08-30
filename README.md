@@ -1,6 +1,6 @@
 # Angular Extension Pack
 
-This extension pack pakcages some of the most popular (and some of my favorite) Angular  extensions.  If you know any extension that is good for Angular development, just let me know by [creating an issue](https://github.com/doggy8088/angular-extension-pack/issues).
+This extension pack pakcages some of the most popular (and some of my favorite) Angular  extensions.  If you like it, please leave your `Rating & Review` and share with your friends.  If you know any extension that is good for Angular development, just let me know by [creating an issue](https://github.com/doggy8088/angular-extension-pack/issues).
 
 ## Extensions Included
 
@@ -49,12 +49,13 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         - `x: Property to getter/setter`
         - `x: Arrow function all single statement blocks to expression`
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-    - Setting: Set the HTML default `wrap_line_length` to `0`. Removed `label` tag from `html.format.unformatted` because `label` are sometimes wrapping `input` and other tags.  See the [VSCodeBeautify/Settings](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) docs.
+    - Setting: `"html.format.wrapLineLength": 0` (I don't like HTML been wrapped automatically.)
+    - Setting: `"html.format.wrapAttributes": "auto"` (You can also change value to `"force-expand-multiline"`)
+    - Setting: I removed `label` tag from `html.format.unformatted` because there is a common skill that `label` can wrap `input` and text sometimes.
         ```
-        "html.format.wrapLineLength": 0,
-        "html.format.wrapAttributes": "auto",
         "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var"
         ```
+    - For more settings, please check [VSCodeBeautify/Settings](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) docs.
     - See also: [.editorconfig's indent_size doesn't applied on HTML file #170](https://github.com/HookyQR/VSCodeBeautify/issues/170)
 - [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
     - Remember to hit `Ctrl+Alt+V` to convert JSON from **clipboard**.
@@ -68,6 +69,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+    - This might broken Emmet features.  See also: [Doesn't play nice with Emmet #28](https://github.com/formulahendry/vscode-auto-close-tag/issues/28)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 ### Code Analysis
@@ -84,6 +86,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 ### Collaboration
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+    - There is a **EditorConfig: Generate** can generate `.editorconfig` on the fly.
 
 ### Workbench
 
