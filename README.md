@@ -44,13 +44,13 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         - `cdi→` console dir `console.dir`
 - [refactorix](https://marketplace.visualstudio.com/items?itemName=krizzdewizz.refactorix)
     - Some of the **Toggle access modifier** are awesome:
-        - `x: Add semicolons`
-        - `x: Remove semicolons`
+        - `x: Add semicolons` ( There is so convenient shortcut: `Ctrl+;` )
+        - `x: Remove semicolons` ( There is so convenient shortcut: `Ctrl+Shift+;` )
         - `x: Property to getter/setter`
         - `x: Arrow function all single statement blocks to expression`
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
     - Setting: `"html.format.wrapLineLength": 0` (I don't like HTML been wrapped automatically.)
-    - Setting: `"html.format.wrapAttributes": "auto"` (You can also change value to `"force-expand-multiline"`)
+    - Setting: `"html.format.wrapAttributes": "auto"` ( or `"force-expand-multiline"` )
     - Setting: I removed `label` tag from `html.format.unformatted` because there is a common skill that `label` can wrap `input` and text sometimes.
         ```
         "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var"
@@ -67,10 +67,22 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 ### Template Productivity
 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+    - This a MUST extension for your Angular development.
+    - It provide a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+    - This might broken something in the JS/TS file.  So I prefer to turn on **html** and **xml** only.
+        ```
+        "auto-rename-tag.activationOnLanguage": [
+                "html",
+                "xml"
+            ],
+        ```
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+    - There is a `Alt+.` shortcut can **Auto Close** unmatched tag in the current cursor position.
     - This might broken Emmet features.  See also: [Doesn't play nice with Emmet #28](https://github.com/formulahendry/vscode-auto-close-tag/issues/28)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+    - Remember to hit `F12` that **Go To** css file and open in a new editor.
+    - Remember to hit `Ctrl` to show the definition in a hover over the symbol.
 
 ### Code Analysis
 
