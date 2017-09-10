@@ -77,9 +77,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
                 "xml"
             ],
         ```
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-    - There is a `Alt+.` shortcut can **Auto Close** unmatched tag in the current cursor position.
-    - This might broken Emmet features.  See also: [Doesn't play nice with Emmet #28](https://github.com/formulahendry/vscode-auto-close-tag/issues/28)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
     - Remember to hit `F12` that **Go To** css file and open in a new editor.
     - Remember to hit `Ctrl` to show the definition in a hover over the symbol.
