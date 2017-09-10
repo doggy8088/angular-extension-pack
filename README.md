@@ -24,6 +24,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         - `a-routerLink`: `routerLink`
 - [Angular 2+ Snippets - TypeScript, Html, ngRx, Angular Flex Layout & Testing](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
     - Setting: `"editor.snippetSuggestions": "top"`
+        - Let default/user/extension snippets are on top of your suggestion list.
 
 ### TypeScript Productivity
 
@@ -116,11 +117,11 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 ### Other manual setup (Optional)
 
-- Recommended Settings for Editor Fonts
+- Recommended Editor Fonts Settings
     - English
-        - `"editor.fontLigatures": true`
         - `"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace"`
-        - Install [FiraCode: Monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
+            - Install [FiraCode: Monospaced font with programming ligatures](https://github.com/tonsky/FiraCode)
+            - The [FiraCode](https://github.com/tonsky/FiraCode) provided a ligatures feature for your code which is pretty cool.  You have to set `"editor.fontLigatures": true` to enabled it.
     - 繁體中文
         - `"editor.fontLigatures": true`
         - `"editor.fontFamily": "Fira Code, 'Noto Sans CJK TC Medium', Consolas, 'Courier New', monospace"`
@@ -134,9 +135,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - Recommended Settings
     - `"editor.minimap.renderCharacters": false`
         - Enhanced minimap performance by disabling render characters in minimap.
-- Recommended Settings for Visual Studio Code v1.13 to v1.14.
-    - `"emmet.useNewEmmet": true`
-        - Use the new Emmet features in Visual Studio Code v1.13.
-        - The new Emmet features has been enabled by default from Visual Studio Code v1.15.
+    - `"emmet.showSuggestionsAsSnippets": true`
+        - Treat all emmet suggestion as snippets can make all suggestions get sorted alphabetically.
 
 **Enjoy!**

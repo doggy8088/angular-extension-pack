@@ -1,7 +1,11 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
-## 0.8.0 - 2017-09-07
+## 0.8.1 - 2017-09-11
+- Update `README.md`
+- Changed VS Code dependency to v1.15 and above.
+
+## 0.8.0 - 2017-09-10
 - Remove [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
     - From VS Code 1.16, it has built-in **Auto Close Tag** feature.
 
