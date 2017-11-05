@@ -114,6 +114,9 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
     - I don't need this extension usually, but maybe someone need it. 
 - [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
     - I don't use **inline template** at all.  If you need it, you can install this extension.  I don't like mix HTML with TypeScript anyway.
+- [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension)
+    - Language support for **inline-defined template** and styles.
+    - I don't use **inline template** at all.  If you need it, you can install this extension.
 
 ### Other manual setup (Optional)
 

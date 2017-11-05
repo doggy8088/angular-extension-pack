@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.8.2 - 2017-11-05
+- Update `README.md`
+- Added [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension) to the optional extension suggestion list.
+
 ## 0.8.1 - 2017-09-11
 - Update `README.md`
 - Changed VS Code dependency to v1.15 and above.
