@@ -49,6 +49,11 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         - `x: Remove semicolons` ( There is so convenient shortcut: `Ctrl+Shift+;` )
         - `x: Property to getter/setter`
         - `x: Arrow function all single statement blocks to expression`
+- [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - Setting: `"prettier.singleQuote": true`
+        - We love single quote on strings.  Isn't it?
+    - Setting: `"editor.formatOnSave": false`
+        - Prettier use AST to parse your source code so you can safely enable `editor.formatOnSave` setting.
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
     - Setting: `"html.format.wrapLineLength": 0` (I don't like HTML been wrapped automatically.)
     - Setting: `"html.format.wrapAttributes": "auto"` ( or `"force-expand-multiline"` )

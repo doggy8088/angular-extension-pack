@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.9.0 - 2017-11-07
+- Added [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - An amazing JavaScript/CSS/GraphQL/Markdown formatter. Check [this](https://prettier.io) out!
+
 ## 0.8.2 - 2017-11-05
 - Update `README.md`
 - Added [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension) to the optional extension suggestion list.
