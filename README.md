@@ -107,7 +107,6 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 - [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
 - [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
-- [Angular-io-Code](https://marketplace.visualstudio.com/items?itemName=NoHomey.angular-io-code)
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
@@ -122,6 +121,8 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension)
     - Language support for **inline-defined template** and styles.
     - I don't use **inline template** at all.  If you need it, you can install this extension.
+- [Angular-io-Code](https://marketplace.visualstudio.com/items?itemName=NoHomey.angular-io-code)
+    - I like this theme personally.  It's up to your choose.
 
 ### Other manual setup (Optional)
 
