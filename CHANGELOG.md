@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 0.9.3 - 2018-01-19
+- Removed [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) due to user complain.
+
 ## 0.9.1 - 2017-12-07
 - Removed [Angular-io-Code](https://marketplace.visualstudio.com/items?itemName=NoHomey.angular-io-code)
 
