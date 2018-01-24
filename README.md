@@ -1,6 +1,6 @@
 # Angular Extension Pack
 
-This extension pack pakcages some of the most popular (and some of my favorite) Angular  extensions.  If you like it, please leave your `Rating & Review` and share with your friends.  If you know any extension that is good for Angular development, just let me know by [creating an issue](https://github.com/doggy8088/angular-extension-pack/issues).
+This extension pack packages some of the most popular (and some of my favorite) Angular extensions.  If you like it, please leave your `Rating & Review` and share with your friends.  If you know any extension that is good for Angular development, just let me know by [creating an issue](https://github.com/doggy8088/angular-extension-pack/issues).
 
 ## Extensions Included
 
@@ -69,9 +69,9 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
     - This a MUST extension for your Angular development.
-    - It provide a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
+    - It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-    - This might broken something in the JS/TS file.  So I prefer to turn on **html** and **xml** only.
+    - This might break something in the JS/TS file.  So I prefer to turn on **html** and **xml** only.
         ```
         "auto-rename-tag.activationOnLanguage": [
                 "html",
@@ -80,7 +80,7 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
         ```
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
     - Remember to hit `F12` that **Go To** css file and open in a new editor.
-    - Remember to hit `Ctrl` to show the definition in a hover over the symbol.
+    - Remember to hit `Ctrl` to show the definition when hovering over the symbol.
 
 ### Code Analysis
 
@@ -115,14 +115,14 @@ This extension pack pakcages some of the most popular (and some of my favorite) 
 - [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
     - It's too informative for me.  I turn it off all the time.
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-    - I don't need this extension usually, but maybe someone need it. 
+    - I don't need this extension usually, but maybe someone needs it. 
 - [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
-    - I don't use **inline template** at all.  If you need it, you can install this extension.  I don't like mix HTML with TypeScript anyway.
+    - I don't use **inline template** at all.  If you need it, you can install this extension.  I don't like to mix HTML with TypeScript anyway.
 - [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension)
     - Language support for **inline-defined template** and styles.
     - I don't use **inline template** at all.  If you need it, you can install this extension.
 - [Angular-io-Code](https://marketplace.visualstudio.com/items?itemName=NoHomey.angular-io-code)
-    - I like this theme personally.  It's up to your choose.
+    - I like this theme personally.  It's up to you.
 
 ### Other manual setup (Optional)
 
