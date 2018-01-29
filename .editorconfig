@@ -1,0 +1,4 @@
+charset = utf-8
+
+[*.md]
+indent_size = 2
