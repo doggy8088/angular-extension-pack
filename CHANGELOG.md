@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 1.0.0 - 2018-02-07
+
+* Change a new Icon for this extension. :-)
+
 ## 0.9.5 - 2018-01-30
 
 * Updated README.md for many extensions.
