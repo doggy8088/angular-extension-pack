@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 1.0.1 - 2018-02-28
+
+* Add some notes about importing RxJS stuff
+
 ## 1.0.0 - 2018-02-07
 
 * Change a new Icon for this extension. :-)

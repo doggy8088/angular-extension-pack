@@ -9,6 +9,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
+    * Template snippets
     * `a-ngIf`: `*ngIf`
     * `a-ngFor`: `*ngFor`
     * `a-ngForAsync`: `*ngFor` with async
@@ -16,6 +17,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * `a-select`: `<select>` control
     * `a-routerLink`: `routerLink`
     * `a-routerLink-param`: `routerLink` with a route parameter
+  * TypeScript snippets
     * `a-route-path-404`: 404 route path
     * `a-route-path-lazy`: lazy route path
     * `rx-observable`: Rx `Observable` import
@@ -46,6 +48,56 @@ This extension pack packages some of the most popular (and some of my favorite) 
     | `fx-` | Angular Flex Layout Snippets |
     | `m-` | Angular Material Design Snippets |
     | `ngrx-` | Angular NgRx Snippets |
+
+* Some notes about importing RxJS stuff
+
+  * For `rx-` snippets of the [Angular 5 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) extension, it only contains `rx-import-*` at this time.
+    * To know this, you can easily distinguish this extension's `rx-*` with [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)'s `rx-*` snippets.
+  * Comparsion RxJS snippets between these two extensions
+    | [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) | [Angular 5 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) | RxJS ver. | Snippet Text |
+    | --------------------- | -------------------------- | ---------------------- | --------------------------------------------------------- |
+    | `rx-observable`       | `rx-import-observable`     | 5.x  | `import { Observable      } from 'rxjs/Observable';`      |
+    | `rx-add-observable`   | `rx-import-add-observable` | 5.x  | `import 'rxjs/add/observable/${1:of}';`                   |
+    | `rx-add-operator`     | N/A                        | 5.x  | `import 'rxjs/add/operator/${1:map}';`                    |
+    | `rx-operators`        | `rx-import-operator`       | 5.5+ | `import { ${1:switchMap}  } from 'rxjs/operators';`       |
+    | `rx-subject`          | N/A                        | 5.x  | `import { Subject         } from 'rxjs/Subject';`         |
+    | `rx-replay-subject`   | N/A                        | 5.x  | `import { ReplaySubject   } from 'rxjs/ReplaySubject';`   |
+    | `rx-behavior-subject` | N/A                        | 5.x  | `import { BehaviorSubject } from 'rxjs/BehaviorSubject';` |
+    | N/A                   | `rx-import-all`            | 5.x  | `import Rx from 'rxjs/Rx';`                               |
+  * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. (This hopefully could be fixed on RxJS 6.)
+    * Operators
+      * `import { map } from 'rxjs/operators';`
+      * `import { map } from 'rxjs/operator';`
+      * `import 'rxjs/add/operator/map';`
+      * `import { operators: { map } } from 'rxjs/Rx';`
+      * `import * as Rx from 'rxjs';`
+      * `import * as Rx from 'rxjs/Rx';`
+    * Observables
+      * `import { Observable } from 'rxjs/Observable;`
+      * `import { Observable } from 'rxjs/Rx';`
+      * `import { Observable } from 'rxjs';`
+    * More ways to import
+      * `import { fromEvent } from 'rxjs/observable/fromEvent';`
+      * `import 'rxjs/add/observable/fromEvent';`
+      * `import { Observable } from 'rxjs'; // adds fromEvent`
+      * `import { FromEventObservable } from 'rxjs/observable/FromEventObservable';`
+    * Also, imports could get really long
+      * `import { Observable } from 'rxjs/Observable';`
+      * `import { fromEvent } from 'rxjs/observable/fromEvent';`
+      * `import { of } from 'rxjs/observable/of';`
+      * `import { map } from 'rxjs/operators/map';`
+      * `import { filter } from 'rxjs/operators/filter';`
+      * `import { takeUntil } from 'rxjs/operators/takeUntil;`
+      * `import { mergeMap } from 'rxjs/operators/mergeMap';`
+      * `import { pipe } from 'rxjs/utils/pipe';`
+      * `import { async } from 'rxjs/scheduler/async';`
+    * In RxJS 5.5 is got a *little* better
+      * `import { Observable } from 'rxjs/Observable';`
+      * `import { fromEvent } from 'rxjs/observable/fromEvent';`
+      * `import { of } from 'rxjs/observable/of';`
+      * `import { map, filter, takeUntil, mergeMap } from 'rxjs/operators';`
+      * `import { pipe } from 'rxjs/utils/pipe';`
+      * `import { async } from 'rxjs/scheduler/async';`
 
 ### TypeScript Productivity
 
