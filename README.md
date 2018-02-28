@@ -64,7 +64,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     | `rx-replay-subject`   | N/A                        | 5.x  | `import { ReplaySubject   } from 'rxjs/ReplaySubject';`   |
     | `rx-behavior-subject` | N/A                        | 5.x  | `import { BehaviorSubject } from 'rxjs/BehaviorSubject';` |
     | N/A                   | `rx-import-all`            | 5.x  | `import Rx from 'rxjs/Rx';`                               |
-  * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. (This hopefully could be fixed on RxJS 6.)
+  * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. (This hopefully could be fixed on RxJS 6. Thanks [@BenLesh](https://twitter.com/BenLesh).)
     * Operators
       * `import { map } from 'rxjs/operators';`
       * `import { map } from 'rxjs/operator';`
