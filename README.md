@@ -102,10 +102,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### TypeScript Productivity
 
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-* [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-  * Setting: `"tsimporter.noStatusBar": true`
-* [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
-  * Setting: `"genGetSet.spacedImportLine": true`
 * [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
   * Some of the code snippets are very useful and used very often:
     * `imd→` imports only a portion of the module using destructing `import {rename} from 'fs';`
@@ -137,6 +133,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
   * Remember to hit `Ctrl+Alt+D` and again `Ctrl+Alt+D` (hit twice) to generates documentation.
 * [Latest TypeScript and Javascript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
+* [Move TS - Move TypeScript files and update relative imports](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
 
 ### Template Productivity
 
@@ -195,6 +192,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension)
   * Language support for **inline-defined template** and styles.
   * I don't use **inline template** at all. If you need it, you can install this extension.
+* [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
+  * Setting: `"tsimporter.noStatusBar": true`
+* [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
+  * Setting: `"genGetSet.spacedImportLine": true`
+  * Some features are broken.
 
 ### Other manual setup (Optional)
 

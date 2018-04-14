@@ -2,6 +2,16 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 1.2.0 - 2018-04-14
+
+* Add [Move TS - Move TypeScript files and update relative imports](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
+
+## 1.1.0 - 2018-04-04
+
+* Since from VSCode 1.18 has built-in [Auto Import for JavaScript and TypeScript](https://code.visualstudio.com/updates/v1_18#_auto-import-for-javascript-and-typescript) feature so I removed the following extensions. 
+  * [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
+  * [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
+
 ## 1.0.2 - 2018-02-28
 
 * Add some notes about importing RxJS stuff
