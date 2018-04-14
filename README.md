@@ -51,6 +51,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * Some notes about importing RxJS stuff
 
+  * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
   * For `rx-` snippets of the [Angular 5 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) extension, it only contains `rx-import-*` at this time.
     * To know this, you can easily distinguish this extension's `rx-*` with [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)'s `rx-*` snippets.
   * Comparsion RxJS snippets between these two extensions
