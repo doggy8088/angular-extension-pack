@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 1.3.0
+
+* Add [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+* Removed [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+
 ## 1.2.1 - 2018-04-14
 
 * Add [Move TS - Move TypeScript files and update relative imports](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)

@@ -172,7 +172,14 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### Workbench
 
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
-* [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+  * You have to enable this **File Icon Theme** manually.
+    * Windows: **File** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
+    * OSX: **Code** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
+* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+  * The TODO Highlight **Keywords** can be customized, see the [docs](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) for the details.
+  * There are two main commands:
+    1. **Toggle highlight** : turn on/off the highlight
+    2. **List hilighted annotations** : list annotations and reveal from corresponding file
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
@@ -198,6 +205,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
   * Setting: `"genGetSet.spacedImportLine": true`
   * Some features are broken.
+* [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+  * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
 
 ### Other manual setup (Optional)
 
