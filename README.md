@@ -180,6 +180,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * There are two main commands:
     1. **Toggle highlight** : turn on/off the highlight
     2. **List hilighted annotations** : list annotations and reveal from corresponding file
+* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+  * This helps you view and search git log along with the graph and details. Awesome!
+  * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 

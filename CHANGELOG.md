@@ -2,7 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
-## 1.3.0
+## 1.3.1 - 2018-04-27
+
+* Add [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+## 1.3.0 - 2018-04-26
 
 * Add [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 * Removed [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
