@@ -36,7 +36,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * `a-guard-can-deactivate`: `CanDeactivate` guard
     * `a-output-event`: `@Output` event and emitter
 
-* [Angular 5 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+* [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.

@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 1.3.2 - 2018-04-30
+
+* Update README.md
+
 ## 1.3.1 - 2018-04-27
 
 * Add [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
