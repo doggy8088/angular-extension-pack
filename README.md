@@ -6,66 +6,97 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
-    * Template snippets
-    * `a-ngIf`: `*ngIf`
+    * HTML Snippets
+    * `a-class`: `[class]` binding
+    * `a-style`: `[style]` binding
+    * `a-ngClass`: `ngClass`
+    * `a-ngStyle`: `ngStyle`
+    * `a-ngSwitch`: `ngSwitch`
+    * `a-select`: `<select>` control
     * `a-ngFor`: `*ngFor`
     * `a-ngForAsync`: `*ngFor` with async
+    * `a-ngFor-trackBy`: `*ngFor` with trackBy
+    * `a-ngIf`: `*ngIf`
+    * `a-ngIfElse`: `*ngIf` with `else`
     * `a-ngModel`: `ngModel`
-    * `a-select`: `<select>` control
-    * `a-routerLink`: `routerLink`
-    * `a-routerLink-param`: `routerLink` with a route parameter
+    * `a-formControlName`: `formControlName`
+    * `a-formGroup`: `formGroup`
+    * `a-formGroupName`: `formGroupName`
+    * `a-routerLink`: `routerLink` (include routerLinkActive)
+    * `a-routerLink-param`: `routerLink` with a route parameter (include routerLinkActive)
+    * `a-prej`: show the JSON form of a model
+    * `a-preja`: show the JSON form of a model, using async
   * TypeScript snippets
-    * `a-route-path-404`: 404 route path
-    * `a-route-path-lazy`: lazy route path
-    * `rx-observable`: Rx `Observable` import
-    * `rx-subject`: Rx `Subject` import
-    * `rx-add-operator`: Rx `add` operator import
-    * `rx-add-observable`: Rx `add` observable import
-    * `rx-operators`: Rx operators import
-    * `a-http-get`: `http.get` with Rx Observable
-    * `a-httpclient-get`: `httpClient.get` with Rx Observable
-    * `a-http-interceptor`: Empty Angular `HttpInterceptor` for `HttpClient`
-    * `a-http-interceptor-headers`: Angular `HttpInterceptor` that sets headers for `HttpClient`
-    * `a-http-interceptor-logging`: Angular `HttpInterceptor` that logs traffic for `HttpClient`
-    * `a-service-http`: service with `Http`
-    * `a-service-httpclient`: service with `HttpClient`
-    * `a-guard-can-activate`: `CanActivate` guard
-    * `a-guard-can-deactivate`: `CanDeactivate` guard
-    * `a-output-event`: `@Output` event and emitter
+    * RxJS
+      * `a-rxjs-import`: import rxjs features from rxjs (e.g. Observable, of, Subject)
+      * `a-rxjs-operator-import`: import rxjs operators (e.g. map, tap, catchError)
+    * HttpClient
+      * `a-httpclient-get`: `httpClient.get` with Rx Observable
+      * `a-http-interceptor`: Empty Angular `HttpInterceptor` for `HttpClient`
+      * `a-http-interceptor-headers`: Angular `HttpInterceptor` that sets headers for `HttpClient`
+      * `a-http-interceptor-logging`: Angular `HttpInterceptor` that logs traffic for `HttpClient`
+      * `a-service-httpclient`: service with `HttpClient`
+    * Routes
+      * `a-route-path-404`: 404 route path
+      * `a-route-path-lazy`: lazy route path
+      * `a-route-path-default`: default route path
+      * `a-route-path-with-children`: route path with children
+      * `a-route-path-eager`: eager route path
+      * `a-route-path-lazy`: lazy route path
+      * `a-router-events`: listen to one or more router events
+      * `a-route-params-subscribe`: subscribe to route parameters
+    * Route Guards
+      * `a-guard-can-load`: `CanLoad` guard
+      * `a-guard-can-activate`: `CanActivate` guard
+      * `a-guard-can-activate-child`: `CanActivateChild` guard
+      * `a-guard-can-deactivate`: `CanDeactivate` guard
+    * Misc
+      * `a-preload-strategy`: implements PreloadingStrategy class
+      * `a-output-event`: `@Output` event and emitter
+  * JavaScript snippets
+    * `ex-node-server-simple`: Node.js Express snippet that is ideal for serving a simple node.js express app that serves the angular app.
+  * Dockerfile snippets
+    * `docker-angular-multi-stage`: create multi-stage Dockerfile
 
 * [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.
   * Snippet Prefixes
-    | Prefix | Description |
-    | ------- | ----------- |
-    | `ng-` | Angular Snippets |
-    | `rx-` | RxJS Snippets for both TypeScript and JavaScript |
-    | `fx-` | Angular Flex Layout Snippets |
-    | `m-` | Angular Material Design Snippets |
-    | `ngrx-` | Angular NgRx Snippets |
+    | Prefix  | Description                                             |
+    | ------- | ------------------------------------------------------- |
+    | `ng-`   | Angular Snippets                                        |
+    | `fx-`   | Angular Flex Layout Snippets                            |
+    | `ngrx-` | Angular NgRx Snippets                                   |
+    | `ngxs-` | Angular NGXS Snippets                                   |
+    | `m-`    | Angular Material Design Snippets                        |
+    | `rx-`   | RxJS Snippets for both TypeScript and JavaScript        |
+    | `sw-`   | Service Workers Snippets                                |
+    | `pwa-`  | Progressive Web Applications Snippets                   |
 
 * Some notes about importing RxJS stuff
 
   * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
-  * For `rx-` snippets of the [Angular 5 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) extension, it only contains `rx-import-*` at this time.
-    * To know this, you can easily distinguish this extension's `rx-*` with [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)'s `rx-*` snippets.
-  * Comparsion RxJS snippets between these two extensions
-    | [Angular v5 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) | [Angular 5 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) | RxJS ver. | Snippet Text |
-    | --------------------- | -------------------------- | ---------------------- | --------------------------------------------------------- |
-    | `rx-observable`       | `rx-import-observable`     | 5.x  | `import { Observable      } from 'rxjs/Observable';`      |
-    | `rx-add-observable`   | `rx-import-add-observable` | 5.x  | `import 'rxjs/add/observable/${1:of}';`                   |
-    | `rx-add-operator`     | N/A                        | 5.x  | `import 'rxjs/add/operator/${1:map}';`                    |
-    | `rx-operators`        | `rx-import-operator`       | 5.5+ | `import { ${1:switchMap}  } from 'rxjs/operators';`       |
-    | `rx-subject`          | N/A                        | 5.x  | `import { Subject         } from 'rxjs/Subject';`         |
-    | `rx-replay-subject`   | N/A                        | 5.x  | `import { ReplaySubject   } from 'rxjs/ReplaySubject';`   |
-    | `rx-behavior-subject` | N/A                        | 5.x  | `import { BehaviorSubject } from 'rxjs/BehaviorSubject';` |
-    | N/A                   | `rx-import-all`            | 5.x  | `import Rx from 'rxjs/Rx';`                               |
-  * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. (This hopefully could be fixed on RxJS 6. Thanks [@BenLesh](https://twitter.com/BenLesh).)
+  * [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) is focus on `RxJS v6` now.
+
+    | Snippets                  | RxJS ver. | Snippet Text                            |
+    | ------------------------- | --------- | --------------------------------------- |
+    | `a-rxjs-import`           | 6+        | `import { Observable } from 'rxjs';`    |
+    | `a-rxjs-operator-import`  | 6+        | `import { map } from 'rxjs/operators';` |
+
+  * [Angular 6 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) is focus on `RxJS 5.x` now.
+
+    | Snippets                   | RxJS ver. | Snippet Text                                              |
+    | -------------------------- | --------- | --------------------------------------------------------- |
+    | `rx-import-observable`     | 5.x       | `import { Observable      } from 'rxjs/Observable';`      |
+    | `rx-import-add-observable` | 5.x       | `import 'rxjs/add/observable/${1:of}';`                   |
+    | `rx-import-operator`       | 5.5       | `import { ${1:switchMap}  } from 'rxjs/operators';`       |
+    | `rx-import-all`            | 5.x       | `import Rx from 'rxjs/Rx';`                               |
+
+  * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. This is fixed on RxJS 6. Thanks [@BenLesh](https://twitter.com/BenLesh).
     * Operators
       * `import { map } from 'rxjs/operators';`
       * `import { map } from 'rxjs/operator';`
@@ -99,20 +130,43 @@ This extension pack packages some of the most popular (and some of my favorite) 
       * `import { map, filter, takeUntil, mergeMap } from 'rxjs/operators';`
       * `import { pipe } from 'rxjs/utils/pipe';`
       * `import { async } from 'rxjs/scheduler/async';`
+    * In RxJS 6+ is got **MUCH** better
+      * `import { Observable } from 'rxjs';` - import everything that is a type, scheduler, helper, ... etc. from `rxjs`!
+      * `import { map } from 'rxjs/operators';` - all of the operators get imported from `rxjs/operators`!
 
 ### TypeScript Productivity
 
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 * [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-  * Some of the code snippets are very useful and used very often:
-    * `imd→` imports only a portion of the module using destructing `import {rename} from 'fs';`
+  * Import and export
+    * `imp→` imports entire module `import fs from 'fs';`
+    * `imn→` imports entire module without module name `import 'animate.css'`
+    * `ime→` imports everything as alias from the module `import * as localAlias from 'fs';`
+    * `imd→` imports only a portion of the module using destructing `import { rename } from 'fs';`
+    * `ima→` imports only a portion of the module as alias `import { rename as localRename } from 'fs';`
+    * `enf→` exports name function `export const log = (parameter) => { console.log(parameter);};`
+    * `edf→` exports default function `export default (parameter) => { console.log(parameter);};`
+    * `ecl→` exports default class `export default class Calculator { };`
+    * `ece→` exports default class by extending a base one `export default class Calculator extends BaseClass { };`
+  * Class helpers
     * `con→` adds default constructor in the class `constructor() {}`
+    * `met→` creates a method inside a class `add() {}`
+    * `pge→` creates a getter property `get propertyName() {return value;}`
+    * `pse→` creates a setter property `set propertyName(value) {}`
+  * Various methods
+    * `fre→` forEach loop in ES6 syntax `array.forEach(currentItem => {})`
     * `fof→` for ... of loop `for(let item of object) {}`
     * `fin→` for ... in loop `for(let item in object) {}`
+    * `anfn→` creates an anonymous function `(params) => {}`
+    * `nfn→` creates a named function `const add = (params) => {}`
     * `sti→` set interval helper method `setInterval(() => {});`
     * `sto→` set timeout helper method `setTimeout(() => {});`
+    * `prom→` creates a new Promise `return new Promise((resolve, reject) => {});`
+    * `thenCatch→` adds then and catch declaration to a promise `.then((res) => {).catch((err) => {});`
+  * Console methods
     * `clg→` console log `console.log(object)`
     * `cdi→` console dir `console.dir`
+    * `clt→` console table `console.table`
 * [refactorix](https://marketplace.visualstudio.com/items?itemName=krizzdewizz.refactorix)
   * Some of the **Toggle access modifier** are awesome:
     * `x: Add semicolons` ( There is so convenient shortcut: `Ctrl+;` )
