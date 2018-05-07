@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.0.1 - 2018-05-08
+
+* Update README.md
+
 ## 6.0.0 - 2018-05-06
 
 * Updated version to `v6.0.0` to match Angular v6

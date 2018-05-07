@@ -10,56 +10,56 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
-    * `a-class`: `[class]` binding
-    * `a-style`: `[style]` binding
-    * `a-ngClass`: `ngClass`
-    * `a-ngStyle`: `ngStyle`
-    * `a-ngSwitch`: `ngSwitch`
-    * `a-select`: `<select>` control
-    * `a-ngFor`: `*ngFor`
-    * `a-ngForAsync`: `*ngFor` with async
-    * `a-ngFor-trackBy`: `*ngFor` with trackBy
-    * `a-ngIf`: `*ngIf`
-    * `a-ngIfElse`: `*ngIf` with `else`
-    * `a-ngModel`: `ngModel`
-    * `a-formControlName`: `formControlName`
-    * `a-formGroup`: `formGroup`
-    * `a-formGroupName`: `formGroupName`
-    * `a-routerLink`: `routerLink` (include routerLinkActive)
-    * `a-routerLink-param`: `routerLink` with a route parameter (include routerLinkActive)
-    * `a-prej`: show the JSON form of a model
-    * `a-preja`: show the JSON form of a model, using async
-  * TypeScript snippets
-    * RxJS
-      * `a-rxjs-import`: import rxjs features from rxjs (e.g. Observable, of, Subject)
-      * `a-rxjs-operator-import`: import rxjs operators (e.g. map, tap, catchError)
-    * HttpClient
-      * `a-httpclient-get`: `httpClient.get` with Rx Observable
-      * `a-http-interceptor`: Empty Angular `HttpInterceptor` for `HttpClient`
-      * `a-http-interceptor-headers`: Angular `HttpInterceptor` that sets headers for `HttpClient`
-      * `a-http-interceptor-logging`: Angular `HttpInterceptor` that logs traffic for `HttpClient`
-      * `a-service-httpclient`: service with `HttpClient`
-    * Routes
-      * `a-route-path-404`: 404 route path
-      * `a-route-path-lazy`: lazy route path
-      * `a-route-path-default`: default route path
-      * `a-route-path-with-children`: route path with children
-      * `a-route-path-eager`: eager route path
-      * `a-route-path-lazy`: lazy route path
-      * `a-router-events`: listen to one or more router events
-      * `a-route-params-subscribe`: subscribe to route parameters
-    * Route Guards
-      * `a-guard-can-load`: `CanLoad` guard
-      * `a-guard-can-activate`: `CanActivate` guard
-      * `a-guard-can-activate-child`: `CanActivateChild` guard
-      * `a-guard-can-deactivate`: `CanDeactivate` guard
-    * Misc
-      * `a-preload-strategy`: implements PreloadingStrategy class
-      * `a-output-event`: `@Output` event and emitter
-  * JavaScript snippets
-    * `ex-node-server-simple`: Node.js Express snippet that is ideal for serving a simple node.js express app that serves the angular app.
-  * Dockerfile snippets
-    * `docker-angular-multi-stage`: create multi-stage Dockerfile
+      * `a-class`: `[class]` binding
+      * `a-style`: `[style]` binding
+      * `a-ngClass`: `ngClass`
+      * `a-ngStyle`: `ngStyle`
+      * `a-ngSwitch`: `ngSwitch`
+      * `a-select`: `<select>` control
+      * `a-ngFor`: `*ngFor`
+      * `a-ngForAsync`: `*ngFor` with async
+      * `a-ngFor-trackBy`: `*ngFor` with trackBy
+      * `a-ngIf`: `*ngIf`
+      * `a-ngIfElse`: `*ngIf` with `else`
+      * `a-ngModel`: `ngModel`
+      * `a-formControlName`: `formControlName`
+      * `a-formGroup`: `formGroup`
+      * `a-formGroupName`: `formGroupName`
+      * `a-routerLink`: `routerLink` (include routerLinkActive)
+      * `a-routerLink-param`: `routerLink` with a route parameter (include routerLinkActive)
+      * `a-prej`: show the JSON form of a model
+      * `a-preja`: show the JSON form of a model, using async
+    * TypeScript snippets
+      * RxJS
+        * `a-rxjs-import`: import rxjs features from rxjs (e.g. Observable, of, Subject)
+        * `a-rxjs-operator-import`: import rxjs operators (e.g. map, tap, catchError)
+      * HttpClient
+        * `a-httpclient-get`: `httpClient.get` with Rx Observable
+        * `a-http-interceptor`: Empty Angular `HttpInterceptor` for `HttpClient`
+        * `a-http-interceptor-headers`: Angular `HttpInterceptor` that sets headers for `HttpClient`
+        * `a-http-interceptor-logging`: Angular `HttpInterceptor` that logs traffic for `HttpClient`
+        * `a-service-httpclient`: service with `HttpClient`
+      * Routes
+        * `a-route-path-404`: 404 route path
+        * `a-route-path-lazy`: lazy route path
+        * `a-route-path-default`: default route path
+        * `a-route-path-with-children`: route path with children
+        * `a-route-path-eager`: eager route path
+        * `a-route-path-lazy`: lazy route path
+        * `a-router-events`: listen to one or more router events
+        * `a-route-params-subscribe`: subscribe to route parameters
+      * Route Guards
+        * `a-guard-can-load`: `CanLoad` guard
+        * `a-guard-can-activate`: `CanActivate` guard
+        * `a-guard-can-activate-child`: `CanActivateChild` guard
+        * `a-guard-can-deactivate`: `CanDeactivate` guard
+      * Misc
+        * `a-preload-strategy`: implements PreloadingStrategy class
+        * `a-output-event`: `@Output` event and emitter
+    * JavaScript snippets
+      * `ex-node-server-simple`: Node.js Express snippet that is ideal for serving a simple node.js express app that serves the angular app.
+    * Dockerfile snippets
+      * `docker-angular-multi-stage`: create multi-stage Dockerfile
 
 * [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
@@ -131,7 +131,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
       * `import { pipe } from 'rxjs/utils/pipe';`
       * `import { async } from 'rxjs/scheduler/async';`
     * In RxJS 6+ is got **MUCH** better
-      * `import { Observable } from 'rxjs';` - import everything that is a type, scheduler, helper, ... etc. from `rxjs`!
+      * `import { Observable } from 'rxjs';` - import everything that is a Type, Creation methods, Scheduler, Helper from `rxjs`!
       * `import { map } from 'rxjs/operators';` - all of the operators get imported from `rxjs/operators`!
 
 ### TypeScript Productivity
