@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.1.0 - 2018-05-14
+
+* [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2): Renamed `docker-angular-multi-stage` to `docker-angular-node-multi-stage` for an node.js Dockerfile with Angular
+
 ## 6.0.1 - 2018-05-08
 
 * Update README.md

@@ -59,7 +59,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * JavaScript snippets
       * `ex-node-server-simple`: Node.js Express snippet that is ideal for serving a simple node.js express app that serves the angular app.
     * Dockerfile snippets
-      * `docker-angular-multi-stage`: create multi-stage Dockerfile
+      * `docker-angular-node-multi-stage`: create Multi-stage Dockerfile for Node with Angular
 
 * [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
