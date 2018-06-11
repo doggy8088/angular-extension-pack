@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.1.1 - 2018-06-11
+
+* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify): The built-in `html.format.unformatted` is normal now.  So I deleted one recommended settings in the `README.md` file.
+
 ## 6.1.0 - 2018-05-14
 
 * [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2): Renamed `docker-angular-multi-stage` to `docker-angular-node-multi-stage` for an node.js Dockerfile with Angular

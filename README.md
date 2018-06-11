@@ -176,10 +176,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
   * Setting: `"html.format.wrapLineLength": 0` (I don't like HTML been wrapped automatically.)
   * Setting: `"html.format.wrapAttributes": "auto"` ( or `"force-expand-multiline"` )
-  * Setting: I removed `label` and `button` tag from `html.format.unformatted`. It because there is a common skill that `label` can wrap `input` and text sometimes. Also, the `button` tag are usually put image, Glyphicons or some other stuff in it especially when using [Bootstrap](https://getbootstrap.com/).
-    ```json
-    "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, input, kbd, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var"
-    ```
   * For more settings, please check [VSCodeBeautify/Settings](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) docs.
   * See also: [.editorconfig's indent_size doesn't applied on HTML file #170](https://github.com/HookyQR/VSCodeBeautify/issues/170)
 * [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
