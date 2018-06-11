@@ -2,6 +2,13 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.2.0 - 2018-06-12
+
+* Add [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+  * `quicktype` infers types from sample JSON data, then outputs strongly typed models and serializers for working with that data in your desired programming language. For more explanation, read [A first look at quicktype](http://blog.quicktype.io/first-look/).
+  * It supports `C#`, `Go`, `C++`, `Java`, `TypeScript`, `Swift`, `Elm`, and `JSON Schema`.  I have to say THIS IS AWESOME! Just try it.
+  * For simple JSON document, I still using [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts).  If the JSON document are more complex, [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) is the best choice.
+
 ## 6.1.1 - 2018-06-11
 
 * [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify): The built-in `html.format.unformatted` is normal now.  So I deleted one recommended settings in the `README.md` file.
@@ -26,6 +33,8 @@ All notable changes to the "angular-extension-pack" extension pack will be docum
 ## 1.3.1 - 2018-04-27
 
 * Add [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+  * This helps you view and search git log along with the graph and details. Awesome!
+  * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
 
 ## 1.3.0 - 2018-04-26
 
