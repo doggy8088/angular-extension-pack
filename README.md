@@ -173,11 +173,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * `x: Remove semicolons` ( There is so convenient shortcut: `Ctrl+Shift+;` )
     * `x: Property to getter/setter`
     * `x: Arrow function all single statement blocks to expression`
-* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-  * Setting: `"html.format.wrapLineLength": 0` (I don't like HTML been wrapped automatically.)
-  * Setting: `"html.format.wrapAttributes": "auto"` ( or `"force-expand-multiline"` )
-  * For more settings, please check [VSCodeBeautify/Settings](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) docs.
-  * See also: [.editorconfig's indent_size doesn't applied on HTML file #170](https://github.com/HookyQR/VSCodeBeautify/issues/170)
 * [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
   * Remember to hit `Ctrl+Alt+V` to convert JSON from **clipboard**.
   * Remember to hit `Ctrl+Alt+S` to convert JSON from **selection**.

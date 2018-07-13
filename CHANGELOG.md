@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.3.0 - 2018-07-14
+
+* Removed [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
+
 ## 6.2.0 - 2018-06-12
 
 * Add [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
