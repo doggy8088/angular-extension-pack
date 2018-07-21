@@ -218,6 +218,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   * There is a **EditorConfig: Generate** can generate `.editorconfig` on the fly.
 
+* [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Adds real-time collaborative editing and debugging into VS Code.
+
 ### Workbench
 
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
