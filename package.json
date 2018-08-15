@@ -30,6 +30,7 @@
         "xabikos.JavaScriptSnippets",
         "eg2.tslint",
         "MariusAlchimavicius.json-to-ts",
-        "joelday.docthis"
+        "joelday.docthis",
+        "cyrilletuzi.angular-schematics"
     ]
 }
