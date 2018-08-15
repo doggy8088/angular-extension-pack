@@ -12,7 +12,7 @@
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack  ": [
+    "extensionPack": [
         "quicktype.quicktype",
         "donjayamanne.githistory",
         "wayou.vscode-todo-highlight",
