@@ -2,6 +2,13 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.4.0 - 2018-08-17
+
+* Add [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
+  * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
+* Use `extensionPack` instead of `extensionDependencies` ( VSCode `1.26.0+` )
+  * `extensionDependencies` is mainly used to define functional dependencies among extensions that prevents uninstalling or disabling an extension dependency without uninstalling or disabling the dependent extension.
+
 ## 6.3.0 - 2018-07-14
 
 * Removed [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)

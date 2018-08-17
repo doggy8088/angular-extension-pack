@@ -202,9 +202,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Remember to hit `F12` that **Go To** css file and open in a new editor.
   * Remember to hit `Ctrl` to show the definition when hovering over the symbol.
 
-* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-  * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
-
 ### Code Analysis
 
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
@@ -235,6 +232,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   * This helps you view and search git log along with the graph and details. Awesome!
   * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
+* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
+  * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
