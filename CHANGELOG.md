@@ -2,6 +2,23 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.5.1 - 2018-09-14
+
+Add three more HTML snippets.
+
+* `a-ngSubmit`: Angular Forms's `ngSubmit` event
+* `a-formArrayName`: Angular `formArrayName`
+* `a-formGroupName`: Angular `formGroupName`
+
+## 6.5.0 - 2018-09-14
+
+Add some supplementary code snippets to [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
+
+* `ng-import-FormsModule`: imports `FormsModule` from `@angular/forms`
+* `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
+* `ng-import-HttpClientModule`: imports `HttpClientModule` from `@angular/common/http`
+* `ng-import-HttpClient`: imports `HttpClient` from `@angular/common/http`
+
 ## 6.4.0 - 2018-08-17
 
 * Add [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)

@@ -285,4 +285,21 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * `"emmet.showSuggestionsAsSnippets": true`
     * Treat all emmet suggestion as snippets can make all suggestions get sorted alphabetically.
 
+## Snippets Included
+
+This extension contains supplementary code snippets to [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
+
+### TypeScript snippets
+
+* `ng-import-FormsModule`: imports `FormsModule` from `@angular/forms`
+* `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
+* `ng-import-HttpClientModule`: imports `HttpClientModule` from `@angular/common/http`
+* `ng-import-HttpClient`: imports `HttpClient` from `@angular/common/http`
+
+### HTML snippets
+
+* `a-ngSubmit`: Angular Forms's `ngSubmit` event
+* `a-formArrayName`: Angular `formArrayName`
+* `a-formGroupName`: Angular `formGroupName`
+
 **Enjoy!**

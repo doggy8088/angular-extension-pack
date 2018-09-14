@@ -1,0 +1,22 @@
+{
+	"importFormsModule": {
+		"prefix": "ng-import-FormsModule",
+		"body": "import { FormsModule } from '@angular/forms';\n${0}",
+		"description": "imports FormsModule from '@angular/forms'"
+	},
+	"importReactiveFormsModule": {
+		"prefix": "ng-import-ReactiveFormsModule",
+		"body": "import { ReactiveFormsModule } from '@angular/forms';\n${0}",
+		"description": "imports ReactiveFormsModule from '@angular/forms'"
+	},
+	"importHttpClientModule": {
+		"prefix": "ng-import-HttpClientModule",
+		"body": "import { HttpClientModule } from '@angular/common/http';\n${0}",
+		"description": "imports HttpClientModule from '@angular/common/http'"
+	},
+	"importHttpClient": {
+		"prefix": "ng-import-HttpClient",
+		"body": "import { HttpClient } from '@angular/common/http';\n${0}",
+		"description": "imports HttpClient from '@angular/common/http'"
+	}
+}

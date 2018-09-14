@@ -1,0 +1,17 @@
+{
+  "ngSubmit": {
+    "prefix": "a-ngSubmit",
+    "body": ["(ngSubmit)=\"${1:onSubmit}(${2:form})\" ${3:#${2}=\"ngForm\"}"],
+    "description": "Angular Forms's ngSubmit"
+  },
+  "ngFormArrayName": {
+    "prefix": "a-formArrayName",
+    "body": ["formArrayName=\"${1:name}\""],
+    "description": "Angular formArrayName"
+  },
+  "ngFormGroupName": {
+    "prefix": "a-formGroupName",
+    "body": ["formGroupName=\"${1:name}\""],
+    "description": "Angular formGroupName"
+  }
+}
