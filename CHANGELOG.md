@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.5.3 - 2018-09-17
+
+Add a snippet.
+
+* `a-routerLinkActiveOptions`: Angular `[routerLinkActiveOptions]="{exact: true}"`
+
 ## 6.5.1 - 2018-09-14
 
 Add three more HTML snippets.
