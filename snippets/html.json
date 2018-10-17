@@ -14,6 +14,11 @@
     "body": ["formGroupName=\"${1:name}\""],
     "description": "Angular formGroupName"
   },
+  "ngRouterLinkActive": {
+    "prefix": "a-routerLinkActive",
+    "body": ["routerLinkActive=\"${1:active}\""],
+    "description": "Angular routerLinkActive"
+  },
   "ngRouterLinkActiveOptions": {
     "prefix": "a-routerLinkActiveOptions",
     "body": ["[routerLinkActiveOptions]=\"{exact: true}\""],

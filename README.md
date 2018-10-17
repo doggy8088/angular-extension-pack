@@ -66,35 +66,35 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.
   * Snippet Prefixes
-    | Prefix  | Description                                             |
-    | ------- | ------------------------------------------------------- |
-    | `ng-`   | Angular Snippets                                        |
-    | `fx-`   | Angular Flex Layout Snippets                            |
-    | `ngrx-` | Angular NgRx Snippets                                   |
-    | `ngxs-` | Angular NGXS Snippets                                   |
-    | `m-`    | Angular Material Design Snippets                        |
-    | `rx-`   | RxJS Snippets for both TypeScript and JavaScript        |
-    | `sw-`   | Service Workers Snippets                                |
-    | `pwa-`  | Progressive Web Applications Snippets                   |
+    | Prefix  | Description                                      |
+    | ------- | ------------------------------------------------ |
+    | `ng-`   | Angular Snippets                                 |
+    | `fx-`   | Angular Flex Layout Snippets                     |
+    | `ngrx-` | Angular NgRx Snippets                            |
+    | `ngxs-` | Angular NGXS Snippets                            |
+    | `m-`    | Angular Material Design Snippets                 |
+    | `rx-`   | RxJS Snippets for both TypeScript and JavaScript |
+    | `sw-`   | Service Workers Snippets                         |
+    | `pwa-`  | Progressive Web Applications Snippets            |
 
 * Some notes about importing RxJS stuff
 
   * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
   * [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) is focus on `RxJS v6` now.
 
-    | Snippets                  | RxJS ver. | Snippet Text                            |
-    | ------------------------- | --------- | --------------------------------------- |
-    | `a-rxjs-import`           | 6+        | `import { Observable } from 'rxjs';`    |
-    | `a-rxjs-operator-import`  | 6+        | `import { map } from 'rxjs/operators';` |
+    | Snippets                 | RxJS ver. | Snippet Text                            |
+    | ------------------------ | --------- | --------------------------------------- |
+    | `a-rxjs-import`          | 6+        | `import { Observable } from 'rxjs';`    |
+    | `a-rxjs-operator-import` | 6+        | `import { map } from 'rxjs/operators';` |
 
   * [Angular 6 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) is focus on `RxJS 5.x` now.
 
-    | Snippets                   | RxJS ver. | Snippet Text                                              |
-    | -------------------------- | --------- | --------------------------------------------------------- |
-    | `rx-import-observable`     | 5.x       | `import { Observable      } from 'rxjs/Observable';`      |
-    | `rx-import-add-observable` | 5.x       | `import 'rxjs/add/observable/${1:of}';`                   |
-    | `rx-import-operator`       | 5.5       | `import { ${1:switchMap}  } from 'rxjs/operators';`       |
-    | `rx-import-all`            | 5.x       | `import Rx from 'rxjs/Rx';`                               |
+    | Snippets                   | RxJS ver. | Snippet Text                                         |
+    | -------------------------- | --------- | ---------------------------------------------------- |
+    | `rx-import-observable`     | 5.x       | `import { Observable      } from 'rxjs/Observable';` |
+    | `rx-import-add-observable` | 5.x       | `import 'rxjs/add/observable/${1:of}';`              |
+    | `rx-import-operator`       | 5.5       | `import { ${1:switchMap}  } from 'rxjs/operators';`  |
+    | `rx-import-all`            | 5.x       | `import Rx from 'rxjs/Rx';`                          |
 
   * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. This is fixed on RxJS 6. Thanks [@BenLesh](https://twitter.com/BenLesh).
     * Operators
@@ -301,5 +301,7 @@ This extension contains supplementary code snippets to [Angular v6 Snippets](htt
 * `a-ngSubmit`: Angular Forms's `ngSubmit` event
 * `a-formArrayName`: Angular `formArrayName`
 * `a-formGroupName`: Angular `formGroupName`
+* `a-routerLinkActive`: Angular `routerLinkActive="active"`
+* `a-routerLinkActiveOptions`: Angular `[routerLinkActiveOptions]="{exact: true}"`
 
 **Enjoy!**

@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.5.4 - 2018-10-17
+
+Add a snippet.
+
+* `a-routerLinkActive`: Angular `routerLinkActive="active"`
+
 ## 6.5.3 - 2018-09-17
 
 Add a snippet.
