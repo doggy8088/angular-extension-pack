@@ -2,6 +2,14 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 6.5.5 - 2018-11-15
+
+Add 3 snippets.
+
+* `ng-import-createCustomElement`: imports `createCustomElement` from `@angular/elements`
+* `ng-ctor-elements`: create required Angular Elements boilerplate on AppModule's constructor
+* `ngDoBootstrap`: generates `ngDoBootstrap()` method for `AppModule`
+
 ## 6.5.4 - 2018-10-17
 
 Add a snippet.

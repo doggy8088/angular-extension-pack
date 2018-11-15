@@ -295,6 +295,9 @@ This extension contains supplementary code snippets to [Angular v6 Snippets](htt
 * `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
 * `ng-import-HttpClientModule`: imports `HttpClientModule` from `@angular/common/http`
 * `ng-import-HttpClient`: imports `HttpClient` from `@angular/common/http`
+* `ng-import-createCustomElement`: imports `createCustomElement` from `@angular/elements`
+* `ng-ctor-elements`: create required Angular Elements boilerplate on AppModule's constructor
+* `ngDoBootstrap`: generates `ngDoBootstrap()` method for `AppModule`
 
 ### HTML snippets
 
