@@ -261,6 +261,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Some features are broken.
 * [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
   * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
+* [Wallaby.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode)
+  * Integrated Continuous Testing Tool for JavaScript.
+* [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+  * Live Scratchpad for JavaScript.
 
 ### Other manual setup (Optional)
 
