@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 7.0.0 - 2018-12-01
+
+* Update README.md
+
 ## 6.5.6 - 2018-11-17
 
 * Update README.md

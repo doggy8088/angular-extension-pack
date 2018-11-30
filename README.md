@@ -6,7 +6,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular v7 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -31,8 +31,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
       * `a-preja`: show the JSON form of a model, using async
     * TypeScript snippets
       * RxJS
-        * `a-rxjs-import`: import rxjs features from rxjs (e.g. Observable, of, Subject)
-        * `a-rxjs-operator-import`: import rxjs operators (e.g. map, tap, catchError)
+        * `a-rxjs-import`: import RxJs features (e.g. Observable, of, Subject)
+        * `a-rxjs-operator`: import RxJs opertors (e.g. map, tap, catchError)
+        * `a-pipe`: pipe
       * HttpClient
         * `a-httpclient-get`: `httpClient.get` with Rx Observable
         * `a-http-interceptor`: Empty Angular `HttpInterceptor` for `HttpClient`
@@ -57,11 +58,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
         * `a-preload-strategy`: implements PreloadingStrategy class
         * `a-output-event`: `@Output` event and emitter
     * JavaScript snippets
-      * `ex-node-server-simple`: Node.js Express snippet that is ideal for serving a simple node.js express app that serves the angular app.
+      * `ex-simple-server`: Node.js Express Server
     * Dockerfile snippets
-      * `docker-angular-node-multi-stage`: create Multi-stage Dockerfile for Node with Angular
+      * `docker-angular-node-multi-stage`: Multi-stage Dockerfile for Node with Angular
 
-* [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+* [Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.
@@ -75,27 +76,13 @@ This extension pack packages some of the most popular (and some of my favorite) 
     | `m-`    | Angular Material Design Snippets                 |
     | `rx-`   | RxJS Snippets for both TypeScript and JavaScript |
     | `sw-`   | Service Workers Snippets                         |
+    | `t-`    | Test Snippets                                    |
+    | `e-`    | Test Expect Snippets                             |
     | `pwa-`  | Progressive Web Applications Snippets            |
 
 * Some notes about importing RxJS stuff
 
   * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
-  * [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) is focus on `RxJS v6` now.
-
-    | Snippets                 | RxJS ver. | Snippet Text                            |
-    | ------------------------ | --------- | --------------------------------------- |
-    | `a-rxjs-import`          | 6+        | `import { Observable } from 'rxjs';`    |
-    | `a-rxjs-operator-import` | 6+        | `import { map } from 'rxjs/operators';` |
-
-  * [Angular 6 Snippets](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) is focus on `RxJS 5.x` now.
-
-    | Snippets                   | RxJS ver. | Snippet Text                                         |
-    | -------------------------- | --------- | ---------------------------------------------------- |
-    | `rx-import-observable`     | 5.x       | `import { Observable      } from 'rxjs/Observable';` |
-    | `rx-import-add-observable` | 5.x       | `import 'rxjs/add/observable/${1:of}';`              |
-    | `rx-import-operator`       | 5.5       | `import { ${1:switchMap}  } from 'rxjs/operators';`  |
-    | `rx-import-all`            | 5.x       | `import Rx from 'rxjs/Rx';`                          |
-
   * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. This is fixed on RxJS 6. Thanks [@BenLesh](https://twitter.com/BenLesh).
     * Operators
       * `import { map } from 'rxjs/operators';`
@@ -291,7 +278,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ## Snippets Included
 
-This extension contains supplementary code snippets to [Angular v6 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
+This extension contains supplementary code snippets to [Angular v7 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
 
 ### TypeScript snippets
 
