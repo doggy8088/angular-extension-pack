@@ -32,7 +32,8 @@
     "eg2.tslint",
     "MariusAlchimavicius.json-to-ts",
     "joelday.docthis",
-    "cyrilletuzi.angular-schematics"
+    "cyrilletuzi.angular-schematics",
+    "rctay.karma-problem-matcher"
   ],
   "contributes": {
     "snippets": [
