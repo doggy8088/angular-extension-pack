@@ -221,6 +221,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
 * [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
   * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
+* [Karma Problem Matcher](https://marketplace.visualstudio.com/items?itemName=rctay.karma-problem-matcher)
+  * Capture errors from Karma tests running in Visual Studio Code, so test failures will show up in 'Problems' pane (Ctrl+Shift+M on Windows/Linux, ⇧⌘M on Mac) and the failing test can also be made known to VS Code, eg. highlighted with squiggly lines, jumping to it with F8.
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
