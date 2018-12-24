@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 7.1.0 - 2018-12-25
+
+* Remove [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+  * From VS Code 1.29, the IntelliSense widget now shows file icons for JavaScript and TypeScript path suggestions.
+
 ## 7.0.0 - 2018-12-01
 
 * Update README.md
