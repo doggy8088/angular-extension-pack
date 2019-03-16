@@ -190,9 +190,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Code Analysis
 
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-  * Setting: `"tslint.autoFixOnSave": true` ( [See also](https://github.com/Microsoft/TypeScript/issues/13270#issuecomment-292298260) )
-  * Setting: `"tslint.enable": false` ( Sometimes you may need some rest for these tslint rules! )
+* [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
 ### Code Navigation
 

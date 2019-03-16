@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 7.2.0 - 2019-03-17
+
+* Change TSLint extension to Microsoft-version
+  * Remove [TSLint (deprecated)](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+  * Added [TSLint]([https://marketplace.visualstudio.com/items?itemName=eg2.tslint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin))
+
 ## 7.1.0 - 2018-12-25
 
 * Remove [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
