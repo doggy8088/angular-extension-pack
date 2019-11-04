@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 7.3.1 - 2019-11-04
+
+* Fine-tune some Markdown layout
+
 ## 7.3.0 - 2019-11-04
 
 * Add [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)

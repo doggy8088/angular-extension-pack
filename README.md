@@ -67,25 +67,25 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.
   * Snippet Prefixes
-    | Prefix  | Description                                      |
-    | ------- | ------------------------------------------------ |
-    | `ng-`   | Angular Snippets                                 |
-    | `fx-`   | Angular Flex Layout Snippets                     |
-    | `ngrx-` | Angular NgRx Snippets                            |
-    | `ngxs-` | Angular NGXS Snippets                            |
-    | `m-`    | Angular Material Design Snippets                 |
-    | `rx-`   | RxJS Snippets for both TypeScript and JavaScript |
-    | `sw-`   | Service Workers Snippets                         |
-    | `t-`    | Test Snippets                                    |
-    | `e-`    | Test Expect Snippets                             |
-    | `pwa-`  | Progressive Web Applications Snippets            |
+    * `t-`    (Test Snippets)
+    * `e-`    (Test Expect Snippets)
+    * `ng-`   (Angular Snippets)
+    * `fx-`   (Angular Flex Layout Snippets)
+    * `m-`    (Angular Material Design Snippets)
+    * `rx-`   (RxJS Snippets for both TypeScript and JavaScript)
+    * `sw-`   (Service Workers Snippets)
+    * `pwa-`  (Progressive Web Applications Snippets)
+    * `ngrx-` (Angular NgRx Snippets)
+    * `ngxs-` (Angular NGXS Snippets)
 
 * Some notes about importing RxJS stuff
 
   * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
   * In RxJS 6+, there are only 2 kinds of pattern to import things.
-    * `import { Observable } from 'rxjs';` - import everything that is a **Type**, **Creation methods**, **Scheduler**, **Helper** from `rxjs`!
-    * `import { map } from 'rxjs/operators';` - all of the **operators** get imported from `rxjs/operators`!
+    * `import { Observable } from 'rxjs';`
+      * import everything that is a **Type**, **Creation methods**, **Scheduler**, **Helper** from `rxjs`!
+    * `import { map } from 'rxjs/operators';`
+      * all of the **operators** get imported from `rxjs/operators`!
 
 ### TypeScript Productivity
 
