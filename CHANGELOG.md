@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 7.3.0 - 2019-11-04
+
+* Add [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
+* Add some notes on [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) extension.
+* Add [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) and [Angular Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) as optional extensions.
+
 ## 7.2.0 - 2019-03-17
 
 * Change TSLint extension to Microsoft-version

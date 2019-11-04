@@ -6,7 +6,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular v7 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Snippets (Version 8)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -62,7 +62,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * Dockerfile snippets
       * `docker-angular-node-multi-stage`: Multi-stage Dockerfile for Node with Angular
 
-* [Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+* [Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.
@@ -83,43 +83,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * Some notes about importing RxJS stuff
 
   * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
-  * There are [many ways](https://docs.google.com/presentation/d/1_V1hIBY60vs7YqbH7qDSZosAiaPYTRTUlzUUUFfvvoM/edit#slide=id.g24cf5fc38f_0_474) to import RxJS stuff and it's really confusing. This is fixed on RxJS 6. Thanks [@BenLesh](https://twitter.com/BenLesh).
-    * Operators
-      * `import { map } from 'rxjs/operators';`
-      * `import { map } from 'rxjs/operator';`
-      * `import 'rxjs/add/operator/map';`
-      * `import { operators: { map } } from 'rxjs/Rx';`
-      * `import * as Rx from 'rxjs';`
-      * `import * as Rx from 'rxjs/Rx';`
-    * Observables
-      * `import { Observable } from 'rxjs/Observable;`
-      * `import { Observable } from 'rxjs/Rx';`
-      * `import { Observable } from 'rxjs';`
-    * More ways to import
-      * `import { fromEvent } from 'rxjs/observable/fromEvent';`
-      * `import 'rxjs/add/observable/fromEvent';`
-      * `import { Observable } from 'rxjs'; // adds fromEvent`
-      * `import { FromEventObservable } from 'rxjs/observable/FromEventObservable';`
-    * Also, imports could get really long
-      * `import { Observable } from 'rxjs/Observable';`
-      * `import { fromEvent } from 'rxjs/observable/fromEvent';`
-      * `import { of } from 'rxjs/observable/of';`
-      * `import { map } from 'rxjs/operators/map';`
-      * `import { filter } from 'rxjs/operators/filter';`
-      * `import { takeUntil } from 'rxjs/operators/takeUntil;`
-      * `import { mergeMap } from 'rxjs/operators/mergeMap';`
-      * `import { pipe } from 'rxjs/utils/pipe';`
-      * `import { async } from 'rxjs/scheduler/async';`
-    * In RxJS 5.5 is got a *little* better
-      * `import { Observable } from 'rxjs/Observable';`
-      * `import { fromEvent } from 'rxjs/observable/fromEvent';`
-      * `import { of } from 'rxjs/observable/of';`
-      * `import { map, filter, takeUntil, mergeMap } from 'rxjs/operators';`
-      * `import { pipe } from 'rxjs/utils/pipe';`
-      * `import { async } from 'rxjs/scheduler/async';`
-    * In RxJS 6+ is got **MUCH** better
-      * `import { Observable } from 'rxjs';` - import everything that is a Type, Creation methods, Scheduler, Helper from `rxjs`!
-      * `import { map } from 'rxjs/operators';` - all of the operators get imported from `rxjs/operators`!
+  * In RxJS 6+, there are only 2 kinds of pattern to import things.
+    * `import { Observable } from 'rxjs';` - import everything that is a **Type**, **Creation methods**, **Scheduler**, **Helper** from `rxjs`!
+    * `import { map } from 'rxjs/operators';` - all of the **operators** get imported from `rxjs/operators`!
 
 ### TypeScript Productivity
 
@@ -178,12 +144,14 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * This might break something in the JS/TS file. So I prefer to turn on **html** and **xml** only.
+
     ```json
     "auto-rename-tag.activationOnLanguage": [
       "html",
       "xml"
     ],
     ```
+
 * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
   * Remember to hit `F12` that **Go To** css file and open in a new editor.
   * Remember to hit `Ctrl` to show the definition when hovering over the symbol.
@@ -191,6 +159,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### Code Analysis
 
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+  * This extension works using VS Code's built-in version of TypeScript and a local or global install of tslint. You do not need to configure the plugin in your `tsconfig.json` if you are using VS Code's version of TypeScript.
+  * If you are [using a workspace version of typescript](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-the-workspace-version-of-typescript), you must currently configure the TS Server plugin manually by following [these instructions](https://github.com/Microsoft/typescript-tslint-plugin#configuration-options)
+* [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
+  * Reveals some characters that can be harmful because they are invisible or looking like legitimate ones. It could possibly cost you few hours to find out problems.
 
 ### Code Navigation
 
@@ -221,6 +193,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
+* [Angular Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+  * The user interface app for the Angular CLI.
+* [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+  * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 * [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   * Setting: `"prettier.singleQuote": true`
     * We love single quote on strings. Isn't it?
