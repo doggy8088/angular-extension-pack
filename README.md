@@ -176,15 +176,12 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Workbench
 
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+  * TODO Tree just did an amazing job for highlighting the TODO's in the source code and aggregate all the TODO's in the project into sidebar. All the colors can be customized. New comment tags can be customized as well.
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
   * You have to enable this **File Icon Theme** manually.
     * Windows: **File** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
     * OSX: **Code** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
-* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-  * The TODO Highlight **Keywords** can be customized, see the [docs](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) for the details.
-  * There are two main commands:
-    1. **Toggle highlight** : turn on/off the highlight
-    2. **List hilighted annotations** : list annotations and reveal from corresponding file
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   * This helps you view and search git log along with the graph and details. Awesome!
   * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
@@ -193,10 +190,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
-* [Angular Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
-  * The user interface app for the Angular CLI.
 * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
   * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+* [Angular Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+  * The user interface app for the Angular CLI.
 * [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   * Setting: `"prettier.singleQuote": true`
     * We love single quote on strings. Isn't it?
