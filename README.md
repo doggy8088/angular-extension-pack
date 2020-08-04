@@ -89,6 +89,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### TypeScript Productivity
 
+* [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
 * [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
   * Import and export
     * `imp→` imports entire module `import fs from 'fs';`

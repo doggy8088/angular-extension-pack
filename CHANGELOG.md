@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 9.0.0 - 2020-08-04
+
+* Add [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) extension
+
 ## 8.0.1 - 2019-11-11
 
 * Add [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) as optional extension
