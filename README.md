@@ -157,6 +157,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Remember to hit `F12` that **Go To** css file and open in a new editor.
   * Remember to hit `Ctrl` to show the definition when hovering over the symbol.
 
+* [Arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
+  * A tool to refactor components from HTML templates.
+
 ### Code Analysis
 
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)

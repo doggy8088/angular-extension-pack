@@ -2,7 +2,7 @@
   "name": "angular-extension-pack",
   "displayName": "Angular Extension Pack",
   "description": "Popular Visual Studio Code extensions for Angular Development",
-  "version": "9.2.2",
+  "version": "9.2.3",
   "publisher": "doggy8088",
   "icon": "icon.png",
   "repository": "https://github.com/doggy8088/angular-extension-pack",
@@ -33,7 +33,8 @@
     "ms-vscode.vscode-typescript-tslint-plugin",
     "MariusAlchimavicius.json-to-ts",
     "joelday.docthis",
-    "cyrilletuzi.angular-schematics"
+    "cyrilletuzi.angular-schematics",
+    "obenjiro.arrr"
   ],
   "contributes": {
     "snippets": [

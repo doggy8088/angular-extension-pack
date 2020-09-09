@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 9.2.3 - 2020-09-27
+
+* Add [Arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr) extension
+
 ## 9.2.2 - 2020-09-20
 
 * Add `ng-bootstrapModule-NoopZone` snippet for [NoopZone](https://angular.io/guide/zone#noopzone) configuration.
