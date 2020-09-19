@@ -1,27 +1,37 @@
 {
   "ngSubmit": {
     "prefix": "a-ngSubmit",
-    "body": ["(ngSubmit)=\"${1:onSubmit}(${2:form})\" ${3:#${2}=\"ngForm\"}"],
+    "body": [
+      "(ngSubmit)=\"${1:onSubmit}(${2:form})\" ${3:#${2}=\"ngForm\"}"
+    ],
     "description": "Angular Forms's ngSubmit"
   },
   "ngFormArrayName": {
     "prefix": "a-formArrayName",
-    "body": ["formArrayName=\"${1:name}\""],
+    "body": [
+      "formArrayName=\"${1:name}\""
+    ],
     "description": "Angular formArrayName"
   },
   "ngFormGroupName": {
     "prefix": "a-formGroupName",
-    "body": ["formGroupName=\"${1:name}\""],
+    "body": [
+      "formGroupName=\"${1:name}\""
+    ],
     "description": "Angular formGroupName"
   },
   "ngRouterLinkActive": {
     "prefix": "a-routerLinkActive",
-    "body": ["routerLinkActive=\"${1:active}\""],
+    "body": [
+      "routerLinkActive=\"${1:active}\""
+    ],
     "description": "Angular routerLinkActive"
   },
   "ngRouterLinkActiveOptions": {
     "prefix": "a-routerLinkActiveOptions",
-    "body": ["[routerLinkActiveOptions]=\"{exact: true}\""],
+    "body": [
+      "[routerLinkActiveOptions]=\"{exact: true}\""
+    ],
     "description": "Angular routerLinkActiveOptions"
   }
 }

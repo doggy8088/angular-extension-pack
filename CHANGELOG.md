@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 9.1.0 - 2020-09-19
+
+* Remove `ng-import-HttpClient` snippet, because `HttpClient` can be auto-imported easily.
+* Rename `ng-ctor-elements` snippet to `ng-elements` that includes `ngDoBootstrap()` method as well.
+* Rename `ng-import-createCustomElement` snippet to `ng-import-elements` that also import `Injector` as well.
+
 ## 9.0.0 - 2020-08-04
 
 * Add [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) extension

@@ -14,32 +14,35 @@
 		"body": "import { HttpClientModule } from '@angular/common/http';\n${0}",
 		"description": "imports HttpClientModule from '@angular/common/http'"
 	},
-	"importHttpClient": {
-		"prefix": "ng-import-HttpClient",
-		"body": "import { HttpClient } from '@angular/common/http';\n${0}",
-		"description": "imports HttpClient from '@angular/common/http'"
-	},
 	"import-createCustomElement": {
-		"prefix": "ng-import-createCustomElement",
-		"body": "import { createCustomElement } from '@angular/elements';\n${0}",
-		"description": "imports createCustomElement from '@angular/elements'"
+		"prefix": "ng-import-elements",
+		"body": [
+			"import { Injector } from '@angular/core';",
+			"import { createCustomElement } from '@angular/elements';",
+			"$0"
+		],
+		"description": "imports createCustomElement and Injector for Angular Elements"
 	},
 	"ng-ctor-elements": {
-	  "prefix": "ng-ctor-elements",
-	  "body": [
-		"constructor(private injector: Injector) {",
-		"  const customElement = createCustomElement(${1:MadeWithLove}Component, { injector });",
-		"  customElements.define('${2:made-with-love}', customElement);",
-		"}",
-		"$0"
-	  ],
-	  "description": "create required Angular Elements boilerplate on AppModule's constructor"
+		"prefix": "ng-elements",
+		"body": [
+			"$0constructor(private injector: Injector) {",
+			"}",
+			"",
+			"ngDoBootstrap(): void {",
+			"  const customElement = createCustomElement(${1:MadeWithLove}Component, { injector: this.injector });",
+			"  customElements.define('${2:made-with-love}', customElement);",
+			"}"
+		],
+		"description": "generates required Angular Elements boilerplate on AppModule"
 	},
 	"ngDoBootstrap": {
-	  "prefix": "ngDoBootstrap",
-	  "body": [
-		"ngDoBootstrap(app) {$0}"
-	  ],
-	  "description": "generates ngDoBootstrap() for AppModule"
+		"prefix": "ngDoBootstrap",
+		"body": [
+			"ngDoBootstrap(app): void {",
+			"  $0",
+			"}"
+		],
+		"description": "generates ngDoBootstrap() for AppModule"
 	}
 }
