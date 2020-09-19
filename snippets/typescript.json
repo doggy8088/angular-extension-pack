@@ -26,8 +26,7 @@
 	"ng-ctor-elements": {
 		"prefix": "ng-elements",
 		"body": [
-			"$0constructor(private injector: Injector) {",
-			"}",
+			"$0constructor(private injector: Injector) {}",
 			"",
 			"ngDoBootstrap(): void {",
 			"  const customElement = createCustomElement(${1:MadeWithLove}Component, { injector: this.injector });",
