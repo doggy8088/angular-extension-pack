@@ -260,12 +260,18 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 
 ### TypeScript snippets
 
-* `ng-import-FormsModule`: imports `FormsModule` from `@angular/forms`
-* `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
-* `ng-import-HttpClientModule`: imports `HttpClientModule` from `@angular/common/http`
-* `ngDoBootstrap`: generates `ngDoBootstrap()` method for `AppModule`
-* `ng-import-element`: imports `createCustomElement` and `Injector` for Angular Elements
-* `ng-elements`: create required Angular Elements boilerplate on AppModule
+* app.module.ts (Angular Module)
+  * `ng-import-FormsModule`: imports `FormsModule` from `@angular/forms`
+  * `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
+  * `ng-import-HttpClientModule`: imports `HttpClientModule` from `@angular/common/http`
+  * `ngDoBootstrap`: generates `ngDoBootstrap()` method for `AppModule`
+* app.module.ts (Angular Elements)
+  * `ng-import-element`: imports `createCustomElement` and `Injector` for Angular Elements
+  * `ng-elements`: create required Angular Elements boilerplate on AppModule
+* main.ts
+  * `ng-bootstrapModule-NoopZone`: Setting up [NoopZone](https://angular.io/guide/zone#noopzone) in `main.ts`
+* polyfills.ts
+  * `ng-polyfills-zonejs-flags`: Setting up [Zone.js](https://angular.io/guide/zone) flags
 
 ### HTML snippets
 

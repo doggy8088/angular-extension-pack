@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 9.2.0 - 2020-09-19
+
+* Add `ng-bootstrapModule-NoopZone` snippet for [NoopZone](https://angular.io/guide/zone#noopzone) configuration.
+* Add `ng-polyfills-zonejs-flags` snippet for Setting up [Zone.js](https://angular.io/guide/zone)
+
 ## 9.1.0 - 2020-09-19
 
 * Remove `ng-import-HttpClient` snippet, because `HttpClient` can be auto-imported easily.

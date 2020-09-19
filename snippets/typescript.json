@@ -44,5 +44,34 @@
 			"}"
 		],
 		"description": "generates ngDoBootstrap() for AppModule"
+	},
+	"ng-bootstrapModule-NoopZone": {
+		"prefix": "ng-bootstrapModule-NoopZone",
+		"body": [
+			"// Note: Remove the zone.js import from polyfills.ts",
+			"platformBrowserDynamic().bootstrapModule(AppModule, { ngZone: 'noop' })",
+			"  .catch(err => console.error(err));"
+		],
+		"description": ""
+	},
+	"ng-polyfills-zonejs-flags": {
+		"prefix": "ng-polyfills-zonejs-flags",
+		"body": [
+			"// disable patching requestAnimationFrame",
+			"(window as any).__Zone_disable_requestAnimationFrame = true;",
+			"",
+			"// disable patching specified eventNames",
+			"(window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove'];",
+			"",
+			"// disable patch onProperty such as onclick",
+			"// (window as any).__Zone_disable_on_property = true;",
+			"",
+			"// bypass `zone.js` patch for IE/Edge developer tools",
+			"// (window as any).__Zone_enable_cross_context_check = true;",
+			"",
+			"// disable any try/catch for IE/Edge",
+			"// (window as any).__Zone_disable_IE_check = true;"
+		],
+		"description": "Setting up Zone.js flags"
 	}
 }
