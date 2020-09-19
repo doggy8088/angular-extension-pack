@@ -69,7 +69,7 @@
 			"// bypass `zone.js` patch for IE/Edge developer tools",
 			"// (window as any).__Zone_enable_cross_context_check = true;",
 			"",
-			"// disable any try/catch for IE/Edge",
+			"// disable any check for IE/Edge",
 			"// (window as any).__Zone_disable_IE_check = true;"
 		],
 		"description": "Setting up Zone.js flags"
