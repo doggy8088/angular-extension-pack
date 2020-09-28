@@ -1,4 +1,12 @@
 {
+	"import-LazyElementsModule": {
+		"prefix": "ng-import-LazyElementsModule",
+		"body": [
+			"import { LazyElementsModule } from '@angular-extensions/elements';",
+			"$0"
+		],
+		"description": "imports LazyElementsModule from '@angular-extensions/elements'"
+	},
 	"importFormsModule": {
 		"prefix": "ng-import-FormsModule",
 		"body": "import { FormsModule } from '@angular/forms';\n${0}",

@@ -4,6 +4,18 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ## Extensions Included
 
+### Angular-specific Tools
+
+* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+  * This a MUST extension for your Angular development.
+  * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
+* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
+  * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
+* [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
+  * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
+* [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
+  * The extension provides refactoring tools for your Angular codebase.
+
 ### Angular Code Snippets
 
 * [Angular Snippets (Version 9)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
@@ -140,9 +152,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Template Productivity
 
-* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-  * This a MUST extension for your Angular development.
-  * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
   * This might break something in the JS/TS file. So I prefer to turn on **html** and **xml** only.
 
@@ -165,11 +174,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
   * Reveals some characters that can be harmful because they are invisible or looking like legitimate ones. It could possibly cost you few hours to find out problems.
 
-### Code Navigation
-
-* [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
-  * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
-
 ### Collaboration
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
@@ -189,8 +193,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
   * This helps you view and search git log along with the graph and details. Awesome!
   * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
-* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-  * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
@@ -268,6 +270,7 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 * app.module.ts (Angular Elements)
   * `ng-import-element`: imports `createCustomElement` and `Injector` for Angular Elements
   * `ng-elements`: create required Angular Elements boilerplate on AppModule
+  * `ng-import-LazyElementsModule`: imports `LazyElementsModule` from `@angular-extensions/elements`
 * main.ts
   * `ng-bootstrapModule-NoopZone`: Setting up [NoopZone](https://angular.io/guide/zone#noopzone) in `main.ts`
 * polyfills.ts
@@ -280,5 +283,6 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 * `a-formGroupName`: Angular `formGroupName`
 * `a-routerLinkActive`: Angular `routerLinkActive="active"`
 * `a-routerLinkActiveOptions`: Angular `[routerLinkActiveOptions]="{exact: true}"`
+* `a-axLazyElement`: Lazy load **Angular Elements** or **any other web components** / **custom elements**
 
 **Enjoy!**

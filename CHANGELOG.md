@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 9.3.0 - 2020-09-28
+
+* Add [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr) extension
+* Add `ng-import-LazyElementsModule` snippet for [ANGULAR EXTENSIONS ELEMENTS](https://github.com/angular-extensions/elements) configuration.
+* Add `a-axLazyElement` snippet for lazy-load Angular Elements or any other web components
+
 ## 9.2.2 - 2020-09-20
 
 * Add `ng-bootstrapModule-NoopZone` snippet for [NoopZone](https://angular.io/guide/zone#noopzone) configuration.

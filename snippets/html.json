@@ -1,4 +1,11 @@
 {
+  "axLazyElement ": {
+    "prefix": "a-axLazyElement",
+    "body": [
+      "*axLazyElement=\"${1:elementUrl}\""
+    ],
+    "description": "Lazy load Angular Elements or any other web components / custom elements"
+  },
   "ngSubmit": {
     "prefix": "a-ngSubmit",
     "body": [
