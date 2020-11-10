@@ -285,4 +285,8 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 * `a-routerLinkActiveOptions`: Angular `[routerLinkActiveOptions]="{exact: true}"`
 * `a-axLazyElement`: Lazy load **Angular Elements** or **any other web components** / **custom elements**
 
+### NGINX snippets
+
+* `ng-nginx`: A NGINX configuration for Angular (`nginx.conf`)
+
 **Enjoy!**
