@@ -287,6 +287,10 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 
 ### NGINX snippets
 
-* `ng-nginx`: A NGINX configuration for Angular (`nginx.conf`)
+* `ng-nginx`: NGINX configuration for Angular (`nginx.conf`)
+
+### Dockerfile snippets
+
+* `ng-dockerfile`: Multi-stage build for Angular and Nginx Dockerfile
 
 **Enjoy!**
