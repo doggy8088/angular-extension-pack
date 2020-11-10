@@ -292,5 +292,6 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 ### Dockerfile snippets
 
 * `ng-dockerfile`: Multi-stage build for Angular and Nginx Dockerfile
+  * In this snippet, you can choose between `ng build` or `npm run build --` command.
 
 **Enjoy!**

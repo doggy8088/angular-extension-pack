@@ -2,10 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
-## 9.4.4 - 2020-11-10
+## 9.4.5 - 2020-11-10
 
 * Add `ng-nginx` snippet for NGINX configuration (`nginx.conf`)
-* Add `ng-dockerfile` snippet for Dockerfile with nginx image
+* Add `ng-dockerfile` snippet for Multi-stage build for Angular and Nginx Dockerfile
+  * In this snippet, you can choose between `ng build` or `npm run build --` command.
 
 ## 9.3.0 - 2020-09-28
 
