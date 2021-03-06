@@ -18,7 +18,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular Snippets (Version 9)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Snippets (Version 11)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -171,6 +171,9 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
   * This extension works using VS Code's built-in version of TypeScript and a local or global install of tslint. You do not need to configure the plugin in your `tsconfig.json` if you are using VS Code's version of TypeScript.
   * If you are [using a workspace version of typescript](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-the-workspace-version-of-typescript), you must currently configure the TS Server plugin manually by following [these instructions](https://github.com/Microsoft/typescript-tslint-plugin#configuration-options)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  * TSLint's support for Angular CLI is discontinued and it already marking deprecated since Angular CLI 11.
+  * You can follow [this guideline](https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint) for opt-in using the community driven ESLint builder.
 * [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
   * Reveals some characters that can be harmful because they are invisible or looking like legitimate ones. It could possibly cost you few hours to find out problems.
 

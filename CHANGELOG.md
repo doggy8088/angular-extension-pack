@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 11.0.1 - 2021-03-07
+
+* Add [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension.
+  * TSLint's support for Angular CLI is discontinued and it already marking deprecated since Angular CLI 11.
+  * You can follow [this guideline](https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint) for opt-in using the community driven ESLint builder.
+
 ## 9.4.5 - 2020-11-10
 
 * Add `ng-nginx` snippet for NGINX configuration (`nginx.conf`)
