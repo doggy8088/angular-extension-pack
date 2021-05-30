@@ -18,7 +18,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular Snippets (Version 11)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Snippets (Version 12)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -138,52 +138,36 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * `x: Remove semicolons` ( There is so convenient shortcut: `Ctrl+Shift+;` )
     * `x: Property to getter/setter`
     * `x: Arrow function all single statement blocks to expression`
-* [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
-  * Remember to hit `Ctrl+Alt+V` to convert JSON from **clipboard**.
-  * Remember to hit `Ctrl+Alt+S` to convert JSON from **selection**.
-* [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
+* [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh)
   * `quicktype` infers types from sample JSON data, then outputs strongly typed models and serializers for working with that data in your desired programming language. For more explanation, read [A first look at quicktype](http://blog.quicktype.io/first-look/).
   * It supports `C#`, `Go`, `C++`, `Java`, `TypeScript`, `Swift`, `Elm`, and `JSON Schema`.  I have to say THIS IS AWESOME! Just try it.
-  * For simple JSON document, I still using [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts).  If the JSON document are more complex, [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) is the best choice.
-* [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
+* [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
   * Remember to hit `Ctrl+Alt+D` and again `Ctrl+Alt+D` (hit twice) to generates documentation.
-* [Latest TypeScript and Javascript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
 * [Move TS - Move TypeScript files and update relative imports](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
 
 ### Template Productivity
 
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-  * This might break something in the JS/TS file. So I prefer to turn on **html** and **xml** only.
+* Enable VSCode built-in **Linked Editing** ([Auto update tags](https://code.visualstudio.com/Docs/languages/html#_auto-update-tags)) feature.
 
     ```json
-    "auto-rename-tag.activationOnLanguage": [
-      "html",
-      "xml"
-    ],
+    "editor.linkedEditing": true
     ```
 
 * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-  * Remember to hit `F12` that **Go To** css file and open in a new editor.
-  * Remember to hit `Ctrl` to show the definition when hovering over the symbol.
+  * Remember to hit `F12` on the CSS class in HTML that will trigger **Go To Definition** command and preview CSS content.
 
 ### Code Analysis
 
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-  * This extension works using VS Code's built-in version of TypeScript and a local or global install of tslint. You do not need to configure the plugin in your `tsconfig.json` if you are using VS Code's version of TypeScript.
-  * If you are [using a workspace version of typescript](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-the-workspace-version-of-typescript), you must currently configure the TS Server plugin manually by following [these instructions](https://github.com/Microsoft/typescript-tslint-plugin#configuration-options)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   * TSLint's support for Angular CLI is discontinued and it already marking deprecated since Angular CLI 11.
-  * You can follow [this guideline](https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint) for opt-in using the community driven ESLint builder.
+  * You can follow [this guideline](https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint) for migrating an Angular CLI project from Codelyzer and TSLint to ESLint.
 * [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
   * Reveals some characters that can be harmful because they are invisible or looking like legitimate ones. It could possibly cost you few hours to find out problems.
 
-### Collaboration
+### Workbench
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   * There is a **EditorConfig: Generate** can generate `.editorconfig` on the fly.
-
-### Workbench
-
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
   * You have to enable this **File Icon Theme** manually.
     * Windows: **File** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
@@ -199,10 +183,14 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
 
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Real-time collaborative development from the comfort of your favorite tools.
+* [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+  * The user interface app for the Angular CLI.
 * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
   * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
-* [Angular Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
-  * The user interface app for the Angular CLI.
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+  * I don't need this extension usually, but maybe someone needs it.
 * [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   * Setting: `"prettier.singleQuote": true`
     * We love single quote on strings. Isn't it?
@@ -213,18 +201,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Sometimes it's buggy. Many of our projects are unable to produce documentation.
 * [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   * It's too informative for me. I turn it off all the time.
-* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-  * I don't need this extension usually, but maybe someone needs it.
 * [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
   * I don't use **inline template** at all. If you need it, you can install this extension. I don't like to mix HTML with TypeScript anyway.
-* [Angular Component Extension](https://marketplace.visualstudio.com/items?itemName=onixie.angular-component-extension)
-  * Language support for **inline-defined template** and styles.
-  * I don't use **inline template** at all. If you need it, you can install this extension.
-* [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-  * Setting: `"tsimporter.noStatusBar": true`
-* [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
-  * Setting: `"genGetSet.spacedImportLine": true`
-  * Some features are broken.
 * [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
   * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
 * [Wallaby.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode)
@@ -261,7 +239,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ## Snippets Included
 
-This extension contains supplementary code snippets to [Angular Snippets (Version 9)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
+This extension contains supplementary code snippets to [Angular Snippets (Version 12)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
 
 ### TypeScript snippets
 

@@ -2,6 +2,22 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.0.0 - 2021-05-30
+
+* Replace [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) as [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh).
+  * It because the original [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) extension is not updating since **9/20/2018, 11:48:28 PM**. Many of the already fixed bugs/issues are not released. That's why I published this extension with latest version from the [quicktype/quicktype-vscode](https://github.com/quicktype/quicktype-vscode) repo.
+* Replace [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) as [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis).
+  * The old [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) extension has been removed.
+* Remove [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts).
+  * The [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh) fits all circumstances.
+* Remove [Latest TypeScript and Javascript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar).
+* Remove [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag).
+  * The exact same feature has been built-in into VSCode. To enable this, please check [Auto update tags](https://code.visualstudio.com/Docs/languages/html#_auto-update-tags) section.
+* Remove [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin).
+  * TSLint's support for Angular CLI is discontinued and it already marking deprecated since Angular CLI 11.
+  * You can follow [this guideline](https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint) for migrating an Angular CLI project from Codelyzer and TSLint to ESLint.
+* Update `README.md`
+
 ## 11.0.1 - 2021-03-07
 
 * Add [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension.
