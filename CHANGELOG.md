@@ -2,11 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
-## 12.0.0 - 2021-05-30
+## 12.0.1 - 2021-05-30
 
-* Replace [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) as [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh).
+* Replace [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) with [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh).
   * It because the original [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) extension is not updating since **9/20/2018, 11:48:28 PM**. Many of the already fixed bugs/issues are not released. That's why I published this extension with latest version from the [quicktype/quicktype-vscode](https://github.com/quicktype/quicktype-vscode) repo.
-* Replace [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) as [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis).
+* Replace [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) with [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis).
   * The old [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis) extension has been removed.
 * Remove [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts).
   * The [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh) fits all circumstances.
