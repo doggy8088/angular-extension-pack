@@ -167,7 +167,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### Workbench
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-  * There is a **EditorConfig: Generate** can generate `.editorconfig` on the fly.
+  * You can right-click on any folder in the **EXPLORER** pane and choose **Generate .editorconfig** command.
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
   * You have to enable this **File Icon Theme** manually.
     * Windows: **File** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**

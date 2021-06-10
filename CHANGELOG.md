@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.0.3 - 2021-06-11
+
+* Update `README.md`
+  * Revise [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) description
+
 ## 12.0.2 - 2021-05-31
 
 * Replace [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) (`quicktype`) with [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh) (`Will 保哥`).
