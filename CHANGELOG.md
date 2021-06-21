@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.1.0 - 2021-06-21
+
+* Remove [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr) extension
+
 ## 12.0.3 - 2021-06-11
 
 * Update `README.md`

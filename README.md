@@ -13,8 +13,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
   * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
-* [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
-  * The extension provides refactoring tools for your Angular codebase.
 
 ### Angular Code Snippets
 
@@ -181,8 +179,12 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * This helps you view and search git log along with the graph and details. Awesome!
   * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
 
-### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
+### Some other extensions you may need (Optional)
 
+> You need to install the following extensions manually.
+
+* [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+  * Remotely browse and edit a GitHub repository
 * [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   * Real-time collaborative development from the comfort of your favorite tools.
 * [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
@@ -213,6 +215,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * TODO Tree just did an amazing job for highlighting the TODO's in the source code.
   * It can aggregate all the TODO's in the project into sidebar.
   * All the colors can be customized. New comment tags can be customized as well.
+* [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
+  * The extension provides refactoring tools for your Angular codebase.
 
 ### Other manual setup (Optional)
 
