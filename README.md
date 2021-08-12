@@ -170,53 +170,50 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * You have to enable this **File Icon Theme** manually.
     * Windows: **File** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
     * OSX: **Code** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
-* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-  * The TODO Highlight **Keywords** can be customized, see the [docs](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) for the details.
-  * There are two main commands:
-    1. **Toggle highlight** : turn on/off the highlight
-    2. **List hilighted annotations** : list annotations and reveal from corresponding file
-* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-  * This helps you view and search git log along with the graph and details. Awesome!
-  * It also support **Compare**, **Cherry pick**, **Revert**, **Create branches from a commits** actions.
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+  * TODO Tree just did an amazing job for highlighting the TODO's in the source code.
+  * It can aggregate all the TODO's in the project into sidebar.
+  * All the colors can be customized. New comment tags can be customized as well.
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  * The best `git log` extension for Visual Studio Code!
 
 ### Some other extensions you may need (Optional)
 
 > You need to install the following extensions manually.
 
-* [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
-  * Remotely browse and edit a GitHub repository
-* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-  * Real-time collaborative development from the comfort of your favorite tools.
 * [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
   * The user interface app for the Angular CLI.
-* [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
-  * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
-* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-  * I don't need this extension usually, but maybe someone needs it.
 * [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   * Setting: `"prettier.singleQuote": true`
     * We love single quote on strings. Isn't it?
   * Setting: `"editor.formatOnSave": false`
     * Prettier use AST to parse your source code so you can safely enable `editor.formatOnSave` setting.
   * Recommended reading: [Setting up Prettier in an Angular CLI Project](https://medium.com/@victormejia/setting-up-prettier-in-an-angular-cli-project-2f50c3b9a537)
-* [AngularDoc for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=AngularDoc.angulardoc-vscode)
-  * Sometimes it's buggy. Many of our projects are unable to produce documentation.
-* [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  * It's too informative for me. I turn it off all the time.
-* [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
-  * I don't use **inline template** at all. If you need it, you can install this extension. I don't like to mix HTML with TypeScript anyway.
+* [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)
+  * Popular Visual Studio Code extensions for Git version control
+    * [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+    * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+    * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+    * [Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !](https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github)
+    * [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Real-time collaborative development from the comfort of your favorite tools.
+* [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+  * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+  * I don't need this extension usually, but maybe someone needs it.
 * [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
   * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
 * [Wallaby.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode)
   * Integrated Continuous Testing Tool for JavaScript.
 * [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
   * Live Scratchpad for JavaScript.
-* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-  * TODO Tree just did an amazing job for highlighting the TODO's in the source code.
-  * It can aggregate all the TODO's in the project into sidebar.
-  * All the colors can be customized. New comment tags can be customized as well.
+* [AngularDoc for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=AngularDoc.angulardoc-vscode)
+  * Sometimes it's buggy. Many of our projects are unable to produce documentation.
 * [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
-  * The extension provides refactoring tools for your Angular codebase.
+  * Sometimes it's buggy. The extension provides refactoring tools for your Angular codebase.
+* [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
+  * I don't use **inline template** at all. If you need it, you can install this extension. I don't like to mix HTML with TypeScript anyway.
 
 ### Other manual setup (Optional)
 

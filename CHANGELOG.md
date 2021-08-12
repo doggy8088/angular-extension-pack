@@ -2,6 +2,17 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.2.0 - 2021-08-12
+
+* Remove [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension
+* Add [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) extension
+* Remove [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) extension
+* Add [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) extension
+* Set minimal vscode engine must be larger than `1.56.0`.
+* Add `license`, `galleryBanner` in package.json
+* Update `LICENSE`
+* Update `icon.png`
+
 ## 12.1.0 - 2021-06-21
 
 * Remove [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr) extension
