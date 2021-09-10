@@ -181,6 +181,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 > You need to install the following extensions manually.
 
+* [JavaScript Debugger](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug)
+  * An extension for debugging Node.js programs and Chrome.
 * [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
   * The user interface app for the Angular CLI.
 * [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)

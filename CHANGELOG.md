@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.2.1 - 2021-09-10
+
+* Update `README.md`
+  * Add [JavaScript Debugger](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug) to **Optional** extension
+
 ## 12.2.0 - 2021-08-12
 
 * Remove [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension
