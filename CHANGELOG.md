@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.2.2 - 2021-12-14
+
+* Update `README.md`
+  * Add recommended GitLens setting: `"gitlens.currentLine.enabled": false`
+
 ## 12.2.1 - 2021-09-10
 
 * Update `README.md`

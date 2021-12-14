@@ -193,7 +193,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Recommended reading: [Setting up Prettier in an Angular CLI Project](https://medium.com/@victormejia/setting-up-prettier-in-an-angular-cli-project-2f50c3b9a537)
 * [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)
   * Popular Visual Studio Code extensions for Git version control
-    * [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+    * [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+      * Setting: `"gitlens.currentLine.enabled": false`
     * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
     * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
     * [Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !](https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github)
