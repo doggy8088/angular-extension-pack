@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 12.2.3 - 2022-01-02
+
+* Update `README.md`
+  * The `Bracket Pair Colorizer` has become native feature of VS Code.
+
 ## 12.2.2 - 2021-12-14
 
 * Update `README.md`

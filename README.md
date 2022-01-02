@@ -203,8 +203,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Real-time collaborative development from the comfort of your favorite tools.
 * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
   * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
-* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-  * I don't need this extension usually, but maybe someone needs it.
 * [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
   * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
 * [Wallaby.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode)
