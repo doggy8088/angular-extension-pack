@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 13.0.0 - 2022-05-07
+
+* Add [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) extension
+* Remove [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) extension
+* Remove [Move TS - Move TypeScript files and update relative imports](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts) extension
+
 ## 12.2.3 - 2022-01-02
 
 * Update `README.md`

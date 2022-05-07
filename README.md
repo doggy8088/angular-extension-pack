@@ -9,14 +9,14 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
   * This a MUST extension for your Angular development.
   * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
-* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-  * Allows you to launch Angular schematics (CLI commands) from files Explorer (right-click) or Command Palette.
+* [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+  * This let you spend less time looking up command line arguments. Really useful!
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
   * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
 
 ### Angular Code Snippets
 
-* [Angular Snippets (Version 12)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Snippets (Version 13)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -141,7 +141,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * It supports `C#`, `Go`, `C++`, `Java`, `TypeScript`, `Swift`, `Elm`, and `JSON Schema`.  I have to say THIS IS AWESOME! Just try it.
 * [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
   * Remember to hit `Ctrl+Alt+D` and again `Ctrl+Alt+D` (hit twice) to generates documentation.
-* [Move TS - Move TypeScript files and update relative imports](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
 
 ### Template Productivity
 
@@ -174,23 +173,26 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * TODO Tree just did an amazing job for highlighting the TODO's in the source code.
   * It can aggregate all the TODO's in the project into sidebar.
   * All the colors can be customized. New comment tags can be customized as well.
-* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-  * The best `git log` extension for Visual Studio Code!
 
 ### Some other extensions you may need (Optional)
 
 > You need to install the following extensions manually.
 
-* [JavaScript Debugger](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug)
-  * An extension for debugging Node.js programs and Chrome.
-* [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
-  * The user interface app for the Angular CLI.
 * [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  * The code formatting is a subjective preferences. Your choice matters. I choose [Prettier](https://prettier.io/)!
   * Setting: `"prettier.singleQuote": true`
     * We love single quote on strings. Isn't it?
   * Setting: `"editor.formatOnSave": false`
     * Prettier use AST to parse your source code so you can safely enable `editor.formatOnSave` setting.
   * Recommended reading: [Setting up Prettier in an Angular CLI Project](https://medium.com/@victormejia/setting-up-prettier-in-an-angular-cli-project-2f50c3b9a537)
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  * Real-time collaborative development from the comfort of your favorite tools.
+* [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+  * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+* [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+  * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
+* [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
+  * I don't use **inline template** at all. If you need it, you can install this extension. I don't like to mix HTML with TypeScript anyway.
 * [Git Extension Pack](https://marketplace.visualstudio.com/items?itemName=doggy8088.git-extension-pack)
   * Popular Visual Studio Code extensions for Git version control
     * [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -199,22 +201,12 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
     * [Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !](https://marketplace.visualstudio.com/items?itemName=ziyasal.vscode-open-in-github)
     * [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
-* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-  * Real-time collaborative development from the comfort of your favorite tools.
-* [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
-  * Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
-* [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
-  * This colorize your messages in the **Output**/**Debug**/**Extensions** panel and all the `*.log` files.
+* [JavaScript Debugger](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug)
+  * An extension for debugging Node.js programs and Chrome.
 * [Wallaby.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode)
   * Integrated Continuous Testing Tool for JavaScript.
 * [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
   * Live Scratchpad for JavaScript.
-* [AngularDoc for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=AngularDoc.angulardoc-vscode)
-  * Sometimes it's buggy. Many of our projects are unable to produce documentation.
-* [arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
-  * Sometimes it's buggy. The extension provides refactoring tools for your Angular codebase.
-* [angular2-inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
-  * I don't use **inline template** at all. If you need it, you can install this extension. I don't like to mix HTML with TypeScript anyway.
 
 ### Other manual setup (Optional)
 
