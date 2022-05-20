@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 13.1.0 - 2022-05-20
+
+* Add [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf) as a optional extensions.
+* Rename snippet's language id from `NGINX` to `nginx`.
+* Change `vscode` engine dependency to `"^1.67.0"`. (align with [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) extension)
+
 ## 13.0.0 - 2022-05-07
 
 * Add [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) extension

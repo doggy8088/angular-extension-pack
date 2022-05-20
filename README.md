@@ -207,6 +207,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Integrated Continuous Testing Tool for JavaScript.
 * [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
   * Live Scratchpad for JavaScript.
+* [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
+  * If you want to use `ng-nginx` snippet, you might want to install this extension for authoring `nginx.conf` file.
 
 ### Other manual setup (Optional)
 
