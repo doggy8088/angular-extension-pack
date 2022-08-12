@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 14.0.0 - 2022-08-12
+
+* Update `README.md`
+* Move [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons) to optional extension
+* Add [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) to optional extension
+
 ## 13.1.0 - 2022-05-20
 
 * Add [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf) as a optional extensions.

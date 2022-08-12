@@ -165,10 +165,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   * You can right-click on any folder in the **EXPLORER** pane and choose **Generate .editorconfig** command.
-* [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
-  * You have to enable this **File Icon Theme** manually.
-    * Windows: **File** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
-    * OSX: **Code** → **Preferences** → **File Icon Theme** → **VSCode Great Icons**
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   * TODO Tree just did an amazing job for highlighting the TODO's in the source code.
   * It can aggregate all the TODO's in the project into sidebar.
@@ -209,6 +205,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * Live Scratchpad for JavaScript.
 * [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
   * If you want to use `ng-nginx` snippet, you might want to install this extension for authoring `nginx.conf` file.
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+* [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
 
 ### Other manual setup (Optional)
 
