@@ -2,12 +2,12 @@
   "name": "angular-extension-pack",
   "displayName": "Angular Extension Pack",
   "description": "Popular Visual Studio Code extensions for Angular Development",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "publisher": "doggy8088",
   "icon": "icon.png",
   "repository": "https://github.com/doggy8088/angular-extension-pack",
   "engines": {
-    "vscode": "^1.67.0"
+    "vscode": "^1.69.1"
   },
   "license": "MIT",
   "galleryBanner": {
@@ -36,8 +36,7 @@
     "krizzdewizz.refactorix",
     "xabikos.JavaScriptSnippets",
     "pranaygp.vscode-css-peek",
-    "oouo-diogo-perdigao.docthis",
-    "nrwl.angular-console"
+    "oouo-diogo-perdigao.docthis"
   ],
   "contributes": {
     "snippets": [

@@ -9,8 +9,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
   * This a MUST extension for your Angular development.
   * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
-* [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
-  * This let you spend less time looking up command line arguments. Really useful!
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
   * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
 
@@ -140,7 +138,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * `quicktype` infers types from sample JSON data, then outputs strongly typed models and serializers for working with that data in your desired programming language. For more explanation, read [A first look at quicktype](http://blog.quicktype.io/first-look/).
   * It supports `C#`, `Go`, `C++`, `Java`, `TypeScript`, `Swift`, `Elm`, and `JSON Schema`.  I have to say THIS IS AWESOME! Just try it.
 * [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
-  * Remember to hit `Ctrl+Alt+D` and again `Ctrl+Alt+D` (hit twice) to generates documentation.
+  * Remember to hit `Ctrl+Alt+D` and hit `Ctrl+Alt+D` again (hit twice) to generates documentation.
 
 ### Template Productivity
 
@@ -156,8 +154,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### Code Analysis
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-  * TSLint's support for Angular CLI is discontinued and it already marking deprecated since Angular CLI 11.
-  * You can follow [this guideline](https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint) for migrating an Angular CLI project from Codelyzer and TSLint to ESLint.
+  * Integrates [ESLint](http://eslint.org/) JavaScript into VS Code. If you are new to ESLint check the [documentation](http://eslint.org/).
 * [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
   * Reveals some characters that can be harmful because they are invisible or looking like legitimate ones. It could possibly cost you few hours to find out problems.
 
@@ -207,6 +204,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   * If you want to use `ng-nginx` snippet, you might want to install this extension for authoring `nginx.conf` file.
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
+* [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+  * This let you spend less time looking up command line arguments. Really useful!
 
 ### Other manual setup (Optional)
 
@@ -237,6 +236,12 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 
 ### TypeScript snippets
 
+* main.ts (Standalone component)
+  * `ng-import-provideHttpClient`: imports `provideHttpClient` from `@angular/common/http`
+* main.ts
+  * `ng-bootstrapModule-NoopZone`: Setting up [NoopZone](https://angular.io/guide/zone#noopzone) in `main.ts`
+* polyfills.ts
+  * `ng-polyfills-zonejs-flags`: Setting up [Zone.js](https://angular.io/guide/zone) flags
 * app.module.ts (Angular Module)
   * `ng-import-FormsModule`: imports `FormsModule` from `@angular/forms`
   * `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
@@ -246,10 +251,6 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
   * `ng-import-element`: imports `createCustomElement` and `Injector` for Angular Elements
   * `ng-elements`: create required Angular Elements boilerplate on AppModule
   * `ng-import-LazyElementsModule`: imports `LazyElementsModule` from `@angular-extensions/elements`
-* main.ts
-  * `ng-bootstrapModule-NoopZone`: Setting up [NoopZone](https://angular.io/guide/zone#noopzone) in `main.ts`
-* polyfills.ts
-  * `ng-polyfills-zonejs-flags`: Setting up [Zone.js](https://angular.io/guide/zone) flags
 
 ### HTML snippets
 

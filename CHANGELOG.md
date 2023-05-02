@@ -2,6 +2,13 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 15.0.0 - 2023-05-02
+
+* Remove [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) extension
+  * It because Nx Console no longer supports Angular CLI workspaces.
+* Add `ng-import-provideHttpClient` snippet for Standalone Component.
+* Update README.md
+
 ## 14.0.0 - 2022-08-12
 
 * Update `README.md`

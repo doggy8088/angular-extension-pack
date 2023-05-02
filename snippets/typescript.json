@@ -22,6 +22,11 @@
 		"body": "import { HttpClientModule } from '@angular/common/http';\n${0}",
 		"description": "imports HttpClientModule from '@angular/common/http'"
 	},
+	"importprovideHttpClient": {
+		"prefix": "ng-import-provideHttpClient",
+		"body": "import { provideHttpClient } from '@angular/common/http';\n${0}",
+		"description": "imports provideHttpClient from '@angular/common/http'"
+	},
 	"import-createCustomElement": {
 		"prefix": "ng-import-elements",
 		"body": [
