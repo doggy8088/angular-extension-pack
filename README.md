@@ -9,6 +9,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
   * This a MUST extension for your Angular development.
   * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
+* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
+  * Angular schematics (CLI commands) from files Explorer or Command Palette.
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
   * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
 

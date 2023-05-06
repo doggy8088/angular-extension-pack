@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 15.1.0 - 2023-05-06
+
+* Add [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) extension
+  * Angular schematics (CLI commands) from files Explorer or Command Palette.
+
 ## 15.0.0 - 2023-05-02
 
 * Remove [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) extension
