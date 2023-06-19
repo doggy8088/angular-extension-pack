@@ -2,6 +2,10 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 15.1.1 - 2023-06-17
+
+* Update README.md
+
 ## 15.1.0 - 2023-05-06
 
 * Add [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) extension

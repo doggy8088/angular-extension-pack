@@ -16,7 +16,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular Snippets (Version 13)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Snippets (Version 16)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -173,7 +173,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 > You need to install the following extensions manually.
 
-* [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   * The code formatting is a subjective preferences. Your choice matters. I choose [Prettier](https://prettier.io/)!
   * Setting: `"prettier.singleQuote": true`
     * We love single quote on strings. Isn't it?
