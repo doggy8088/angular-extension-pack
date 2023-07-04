@@ -150,9 +150,6 @@ This extension pack packages some of the most popular (and some of my favorite) 
     "editor.linkedEditing": true
     ```
 
-* [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-  * Remember to hit `F12` on the CSS class in HTML that will trigger **Go To Definition** command and preview CSS content.
-
 ### Code Analysis
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)

@@ -2,6 +2,11 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 15.2.0 - 2023-07-04
+
+* Remove [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) extension
+  * It's been marked as deprecated.
+
 ## 15.1.1 - 2023-06-17
 
 * Update README.md
