@@ -205,6 +205,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 * [VSCode simpler Icons with Angular](https://marketplace.visualstudio.com/items?itemName=davidbabel.vscode-simpler-icons)
 * [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
   * This let you spend less time looking up command line arguments. Really useful!
+* [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
+* [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 
 ### Other manual setup (Optional)
 

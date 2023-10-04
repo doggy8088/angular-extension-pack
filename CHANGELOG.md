@@ -2,6 +2,14 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 16.0.0 - 2023-10-04
+
+* Remove [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) extension
+  * Fix [#25](https://github.com/doggy8088/angular-extension-pack/issues/25)
+* Add two optional extensions (fix #19)
+  * Add [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
+  * Add [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
+
 ## 15.2.0 - 2023-07-04
 
 * Remove [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) extension
