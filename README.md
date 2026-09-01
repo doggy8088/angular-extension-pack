@@ -16,7 +16,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Angular Code Snippets
 
-* [Angular Snippets (Version 16)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Snippets (Version 22)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
   * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
     * HTML Snippets
@@ -72,7 +72,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * Dockerfile snippets
       * `docker-angular-node-multi-stage`: Multi-stage Dockerfile for Node with Angular
 
-* [Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+* [Angular 17 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
 
   * Setting: `"editor.snippetSuggestions": "top"`
     * Let default/user/extension snippets are on top of your suggestion list.
@@ -233,7 +233,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ## Snippets Included
 
-This extension contains supplementary code snippets to [Angular Snippets (Version 12)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
+This extension contains supplementary code snippets to [Angular Snippets (Version 22)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) & [Angular 17 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode).
 
 ### TypeScript snippets
 

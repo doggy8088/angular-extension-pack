@@ -2,6 +2,12 @@
 
 All notable changes to the "angular-extension-pack" extension pack will be documented in this file.
 
+## 17.0.0 - 2026-09-01
+
+* Refresh bundled extension metadata against the Visual Studio Marketplace.
+* Update the minimum VS Code engine to `^1.125.0` for the current Angular Schematics release.
+* Update Angular snippet references to their current marketplace versions.
+
 ## 16.0.0 - 2023-10-04
 
 * Remove [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) extension
