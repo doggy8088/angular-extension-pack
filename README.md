@@ -1,105 +1,31 @@
 # Angular Extension Pack
 
-This extension pack packages some of the most popular (and some of my favorite) Angular extensions. If you like it, please leave your `Rating & Review` and share with your friends. If you know any extension that is good for Angular development, just let me know by [creating an issue](https://github.com/doggy8088/angular-extension-pack/issues).
+This extension pack groups Angular-focused extensions for language support, code generation, snippets, linting, and daily development tasks. The bundled extensions are installed automatically with the pack. If you have suggestions for new extensions or improvements, please [open an issue](https://github.com/doggy8088/angular-extension-pack/issues).
 
 ## Extensions Included
 
 ### Angular-specific Tools
 
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-  * This a MUST extension for your Angular development.
-  * It provides a rich editing experience for Angular templates such as IntelliSense (Completions lists), Quick info, Go to definition ( `F12` ) and AOT Diagnostic messages.
+  * Angular template IntelliSense, diagnostics, quick info, and navigation.
 * [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-  * Angular schematics (CLI commands) from files Explorer or Command Palette.
+  * Run Angular CLI schematics from the Explorer or Command Palette.
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
-  * Remember to use `Alt+o` shortcut to switch between Component and the HTML Template.
+  * Quickly switch between an Angular component and its HTML template.
 
 ### Angular Code Snippets
 
 * [Angular Snippets (Version 22)](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
-
-  * Let's highlight some of my favorite code snippets that works very well with Angular CLI:
-    * HTML Snippets
-      * `a-class`: `[class]` binding
-      * `a-style`: `[style]` binding
-      * `a-ngClass`: `ngClass`
-      * `a-ngStyle`: `ngStyle`
-      * `a-ngSwitch`: `ngSwitch`
-      * `a-select`: `<select>` control
-      * `a-ngFor`: `*ngFor`
-      * `a-ngForAsync`: `*ngFor` with async
-      * `a-ngFor-trackBy`: `*ngFor` with trackBy
-      * `a-ngIf`: `*ngIf`
-      * `a-ngIfElse`: `*ngIf` with `else`
-      * `a-ngModel`: `ngModel`
-      * `a-formControlName`: `formControlName`
-      * `a-formGroup`: `formGroup`
-      * `a-formGroupName`: `formGroupName`
-      * `a-routerLink`: `routerLink` (include routerLinkActive)
-      * `a-routerLink-param`: `routerLink` with a route parameter (include routerLinkActive)
-      * `a-prej`: show the JSON form of a model
-      * `a-preja`: show the JSON form of a model, using async
-    * TypeScript snippets
-      * RxJS
-        * `a-rxjs-import`: import RxJs features (e.g. Observable, of, Subject)
-        * `a-rxjs-operator`: import RxJs opertors (e.g. map, tap, catchError)
-        * `a-pipe`: pipe
-      * HttpClient
-        * `a-httpclient-get`: `httpClient.get` with Rx Observable
-        * `a-http-interceptor`: Empty Angular `HttpInterceptor` for `HttpClient`
-        * `a-http-interceptor-headers`: Angular `HttpInterceptor` that sets headers for `HttpClient`
-        * `a-http-interceptor-logging`: Angular `HttpInterceptor` that logs traffic for `HttpClient`
-        * `a-service-httpclient`: service with `HttpClient`
-      * Routes
-        * `a-route-path-404`: 404 route path
-        * `a-route-path-lazy`: lazy route path
-        * `a-route-path-default`: default route path
-        * `a-route-path-with-children`: route path with children
-        * `a-route-path-eager`: eager route path
-        * `a-route-path-lazy`: lazy route path
-        * `a-router-events`: listen to one or more router events
-        * `a-route-params-subscribe`: subscribe to route parameters
-      * Route Guards
-        * `a-guard-can-load`: `CanLoad` guard
-        * `a-guard-can-activate`: `CanActivate` guard
-        * `a-guard-can-activate-child`: `CanActivateChild` guard
-        * `a-guard-can-deactivate`: `CanDeactivate` guard
-      * Misc
-        * `a-preload-strategy`: implements PreloadingStrategy class
-        * `a-output-event`: `@Output` event and emitter
-    * JavaScript snippets
-      * `ex-simple-server`: Node.js Express Server
-    * Dockerfile snippets
-      * `docker-angular-node-multi-stage`: Multi-stage Dockerfile for Node with Angular
+  * Angular component, template, routing, forms, HTTP, and RxJS snippets.
 
 * [Angular 17 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
-
-  * Setting: `"editor.snippetSuggestions": "top"`
-    * Let default/user/extension snippets are on top of your suggestion list.
-  * Snippet Prefixes
-    * `t-`    (Test Snippets)
-    * `e-`    (Test Expect Snippets)
-    * `ng-`   (Angular Snippets)
-    * `fx-`   (Angular Flex Layout Snippets)
-    * `m-`    (Angular Material Design Snippets)
-    * `rx-`   (RxJS Snippets for both TypeScript and JavaScript)
-    * `sw-`   (Service Workers Snippets)
-    * `pwa-`  (Progressive Web Applications Snippets)
-    * `ngrx-` (Angular NgRx Snippets)
-    * `ngxs-` (Angular NGXS Snippets)
-
-* Some notes about importing RxJS stuff
-
-  * Try [RxJS Explorer](http://reactive.how/rxjs/explorer) to learn more!
-  * In RxJS 6+, there are only 2 kinds of pattern to import things.
-    * `import { Observable } from 'rxjs';`
-      * import everything that is a **Type**, **Creation methods**, **Scheduler**, **Helper** from `rxjs`!
-    * `import { map } from 'rxjs/operators';`
-      * all of the **operators** get imported from `rxjs/operators`!
+  * Snippets for Angular, Angular Material, RxJS, NgRx, tests, and related tooling.
+  * Use `"editor.snippetSuggestions": "top"` to prioritize snippet completions.
 
 ### TypeScript Productivity
 
 * [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+  * Suggests and inserts imports for symbols from project and package dependencies.
 * [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
   * Import and export
     * `imp→` imports entire module `import fs from 'fs';`
@@ -131,16 +57,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
     * `cdi→` console dir `console.dir`
     * `clt→` console table `console.table`
 * [refactorix](https://marketplace.visualstudio.com/items?itemName=krizzdewizz.refactorix)
-  * Some of the **Toggle access modifier** are awesome:
-    * `x: Add semicolons` ( There is so convenient shortcut: `Ctrl+;` )
-    * `x: Remove semicolons` ( There is so convenient shortcut: `Ctrl+Shift+;` )
-    * `x: Property to getter/setter`
-    * `x: Arrow function all single statement blocks to expression`
+  * Applies source transformations such as semicolon changes, accessors, and arrow-function simplification.
 * [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh)
-  * `quicktype` infers types from sample JSON data, then outputs strongly typed models and serializers for working with that data in your desired programming language. For more explanation, read [A first look at quicktype](http://blog.quicktype.io/first-look/).
-  * It supports `C#`, `Go`, `C++`, `Java`, `TypeScript`, `Swift`, `Elm`, and `JSON Schema`.  I have to say THIS IS AWESOME! Just try it.
+  * Generates typed models and serializers from sample JSON data.
 * [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
-  * Remember to hit `Ctrl+Alt+D` and hit `Ctrl+Alt+D` again (hit twice) to generates documentation.
+  * Generates documentation comments for JavaScript and TypeScript declarations.
 
 ### Template Productivity
 
@@ -153,18 +74,16 @@ This extension pack packages some of the most popular (and some of my favorite) 
 ### Code Analysis
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-  * Integrates [ESLint](http://eslint.org/) JavaScript into VS Code. If you are new to ESLint check the [documentation](http://eslint.org/).
+  * Integrates ESLint diagnostics and fixes into VS Code using the project's ESLint configuration.
 * [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
-  * Reveals some characters that can be harmful because they are invisible or looking like legitimate ones. It could possibly cost you few hours to find out problems.
+  * Highlights invisible or visually ambiguous characters that can be difficult to detect in source files.
 
 ### Workbench
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-  * You can right-click on any folder in the **EXPLORER** pane and choose **Generate .editorconfig** command.
+  * Applies `.editorconfig` rules consistently across supported editors and projects.
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-  * TODO Tree just did an amazing job for highlighting the TODO's in the source code.
-  * It can aggregate all the TODO's in the project into sidebar.
-  * All the colors can be customized. New comment tags can be customized as well.
+  * Finds TODO, FIXME, and other configured tags and displays them in a navigable tree.
 
 ### Some other extensions you may need (Optional)
 
@@ -239,19 +158,14 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 
 * main.ts (Standalone component)
   * `ng-import-provideHttpClient`: imports `provideHttpClient` from `@angular/common/http`
-* main.ts
-  * `ng-bootstrapModule-NoopZone`: Setting up [NoopZone](https://angular.io/guide/zone#noopzone) in `main.ts`
-* polyfills.ts
-  * `ng-polyfills-zonejs-flags`: Setting up [Zone.js](https://angular.io/guide/zone) flags
-* app.module.ts (Angular Module)
+* app.module.ts (NgModule compatibility)
   * `ng-import-FormsModule`: imports `FormsModule` from `@angular/forms`
   * `ng-import-ReactiveFormsModule`: imports `ReactiveFormsModule` from `@angular/forms`
   * `ng-import-HttpClientModule`: imports `HttpClientModule` from `@angular/common/http`
   * `ngDoBootstrap`: generates `ngDoBootstrap()` method for `AppModule`
 * app.module.ts (Angular Elements)
-  * `ng-import-element`: imports `createCustomElement` and `Injector` for Angular Elements
-  * `ng-elements`: create required Angular Elements boilerplate on AppModule
-  * `ng-import-LazyElementsModule`: imports `LazyElementsModule` from `@angular-extensions/elements`
+  * `ng-import-elements`: imports `createCustomElement` and `Injector` for Angular Elements
+  * `ng-elements`: generates Angular Elements registration boilerplate for an `AppModule`
 
 ### HTML snippets
 
@@ -260,7 +174,6 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 * `a-formGroupName`: Angular `formGroupName`
 * `a-routerLinkActive`: Angular `routerLinkActive="active"`
 * `a-routerLinkActiveOptions`: Angular `[routerLinkActiveOptions]="{exact: true}"`
-* `a-axLazyElement`: Lazy load **Angular Elements** or **any other web components** / **custom elements**
 
 ### NGINX snippets
 
@@ -269,6 +182,6 @@ This extension contains supplementary code snippets to [Angular Snippets (Versio
 ### Dockerfile snippets
 
 * `ng-dockerfile`: Multi-stage build for Angular and Nginx Dockerfile
-  * In this snippet, you can choose between `ng build` or `npm run build --` command.
+  * Review the base images, build output path, and Nginx configuration for your project before use.
 
 **Enjoy!**
